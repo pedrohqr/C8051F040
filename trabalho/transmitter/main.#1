@@ -1,0 +1,85 @@
+#define TRANSMITTER
+#include "..\util.h"
+#include <stdio.h>
+
+#define AIN0_0 		0
+#define AIN0_1 		1
+#define AIN0_2		2
+#define AIN0_3		3
+#define G05 		6
+#define G1 			0
+#define G2 			1
+#define G4 			2
+#define G8 			3
+#define G16 		4
+
+// Declaração de variáveis globais
+
+// Fim declaração variáveis globais
+
+void adc0_init(unsigned char canal, unsigned char ganho)
+{
+	ADC0CF = (ADC0CF & 0xF8) | ganho;
+	AMX0SL = canal;
+}
+
+void timer2_int() interrupt 5
+{
+	/*********************************************/
+	/* Inicia transmissão dos valores pela RS232 */
+	/*********************************************/
+	// Quando ocorre overflow no Timer2, dá início a conversão do ADC0
+	// e logo transmite o byte pela RS232.
+
+	// xxx xxx -> 6 bits menos significativos do ADC
+	// yyy yyy -> 6 bits mais significativos do ADC
+
+	// Define o padrão da transmissão como 0b 00xx xxxx para o byte menos significativo
+	// Define o padrão da transmissão como 0b 01yy yyyy para o byte mais significativo
+	
+
+	SBUF0 = ADC0L & 0x3F;			// Escreve o byte menos significativo no buffer de transmissão da UART
+	while(TI0 != 1);				// Enquanto não transmitiu o byte, aguarda
+	TI0 = 0;						// Limpa flag de interrupção da transmissão
+
+	SBUF0 = ( ( (ADC0L >> 6) | (ADC0H << 2) ) | 0x40 ) & 0x7F;// Escreve o byte mais significativo no buffer de transmissão da UART
+	while(TI0 != 1);				// Enquanto não transmitiu o byte, aguarda
+	TI0 = 0;						// Limpa flag de interrupção da transmissão
+
+	TF2 = 0; // Limpa flag de interrupção
+}
+
+void main()
+{
+	// Declarações de variáveis
+
+	// Fim Declarações de variáveis
+
+	Init_Device();
+	SFRPAGE = LEGACY_PAGE;
+
+	glcd_init(); 						// Inicialização do GLCD
+	limpa_glcd(ESQ); limpa_glcd(DIR);	// Limpa display GLCD
+
+	loading_screen();
+	limpa_glcd(ESQ); limpa_glcd(DIR);	// Limpa display GLCD
+
+	printf_fast_f("\02 TRANSMITTER");
+
+	adc0_init(AIN0_0, G1);	 	   	// Inicialização do ADC0
+
+	TR2 = 1;						// Inicia a conversão do ADC0
+	while(1)
+	{	
+		if(!P0_2)
+		{
+			limpa_linha_glcd(4);
+			limpa_linha_glcd(5);
+			limpa_linha_glcd(6);
+
+			printf_fast_f("\04 ADC   = %u", (unsigned int)(ADC0H*256 + ADC0L));
+			printf_fast_f("\05 ADC0L = 0x%x", ADC0L);
+			printf_fast_f("\06 ADC0H = 0x%x", ADC0H);
+		}
+	}
+}

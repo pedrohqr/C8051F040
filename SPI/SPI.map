@@ -1,0 +1,2537 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT                        
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_OSEG                          
+C:   00000003  l_BSEG_BYTES                    
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_HOME                          
+C:   00000006  s_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   00000009  s_GSINIT1                       
+C:   00000009  s_GSINIT2                       
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  l_BSEG                          
+C:   00000013  s_GSINIT3                       
+C:   00000013  s_OSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   00000023  s_SSEG                          
+C:   0000002A  l_GSINIT4                       
+C:   00000035  s_GSINIT4                       
+C:   0000005F  s_GSFINAL                       
+C:   0000005F  s_GSINIT                        
+C:   0000005F  s_GSINIT5                       
+C:   00000062  s_CSEG                          
+C:   00000075  l_DSEG                          
+C:   000000DD  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   000003F8  l_CONST                         
+C:   00000B50  l_CSEG                          
+C:   00000BB2  s_CONST                         
+C:   00000FAA  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           SPI
+     00000080  G$P0_0$0$0                         SPI
+     00000080  _P0                                SPI
+     00000080  _P0_0                              SPI
+     00000081  G$P0_1$0$0                         SPI
+     00000081  G$SP$0$0                           SPI
+     00000081  _P0_1                              SPI
+     00000081  _SP                                SPI
+     00000082  G$DPL$0$0                          SPI
+     00000082  G$P0_2$0$0                         SPI
+     00000082  _DPL                               SPI
+     00000082  _P0_2                              SPI
+     00000083  G$DPH$0$0                          SPI
+     00000083  G$P0_3$0$0                         SPI
+     00000083  _DPH                               SPI
+     00000083  _P0_3                              SPI
+     00000084  G$P0_4$0$0                         SPI
+     00000084  G$SFRPAGE$0$0                      SPI
+     00000084  _P0_4                              SPI
+     00000084  _SFRPAGE                           SPI
+     00000085  G$P0_5$0$0                         SPI
+     00000085  G$SFRNEXT$0$0                      SPI
+     00000085  _P0_5                              SPI
+     00000085  _SFRNEXT                           SPI
+     00000086  G$P0_6$0$0                         SPI
+     00000086  G$SFRLAST$0$0                      SPI
+     00000086  _P0_6                              SPI
+     00000086  _SFRLAST                           SPI
+     00000087  G$P0_7$0$0                         SPI
+     00000087  G$PCON$0$0                         SPI
+     00000087  _P0_7                              SPI
+     00000087  _PCON                              SPI
+     00000088  G$CP0HYN0$0$0                      SPI
+     00000088  G$CP1HYN0$0$0                      SPI
+     00000088  G$CP2HYN0$0$0                      SPI
+     00000088  G$CPT0CN$0$0                       SPI
+     00000088  G$CPT1CN$0$0                       SPI
+     00000088  G$CPT2CN$0$0                       SPI
+     00000088  G$IT0$0$0                          SPI
+     00000088  G$TCON$0$0                         SPI
+     00000088  _CP0HYN0                           SPI
+     00000088  _CP1HYN0                           SPI
+     00000088  _CP2HYN0                           SPI
+     00000088  _CPT0CN                            SPI
+     00000088  _CPT1CN                            SPI
+     00000088  _CPT2CN                            SPI
+     00000088  _IT0                               SPI
+     00000088  _TCON                              SPI
+     00000089  G$CP0HYN1$0$0                      SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000089  G$CP1HYN1$0$0                      SPI
+     00000089  G$CP2HYN1$0$0                      SPI
+     00000089  G$CPT0MD$0$0                       SPI
+     00000089  G$CPT1MD$0$0                       SPI
+     00000089  G$CPT2MD$0$0                       SPI
+     00000089  G$IE0$0$0                          SPI
+     00000089  G$TMOD$0$0                         SPI
+     00000089  _CP0HYN1                           SPI
+     00000089  _CP1HYN1                           SPI
+     00000089  _CP2HYN1                           SPI
+     00000089  _CPT0MD                            SPI
+     00000089  _CPT1MD                            SPI
+     00000089  _CPT2MD                            SPI
+     00000089  _IE0                               SPI
+     00000089  _TMOD                              SPI
+     0000008A  G$CP0HYP0$0$0                      SPI
+     0000008A  G$CP1HYP0$0$0                      SPI
+     0000008A  G$CP2HYP0$0$0                      SPI
+     0000008A  G$IT1$0$0                          SPI
+     0000008A  G$OSCICN$0$0                       SPI
+     0000008A  G$TL0$0$0                          SPI
+     0000008A  _CP0HYP0                           SPI
+     0000008A  _CP1HYP0                           SPI
+     0000008A  _CP2HYP0                           SPI
+     0000008A  _IT1                               SPI
+     0000008A  _OSCICN                            SPI
+     0000008A  _TL0                               SPI
+     0000008B  G$CP0HYP1$0$0                      SPI
+     0000008B  G$CP1HYP1$0$0                      SPI
+     0000008B  G$CP2HYP1$0$0                      SPI
+     0000008B  G$IE1$0$0                          SPI
+     0000008B  G$OSCICL$0$0                       SPI
+     0000008B  G$TL1$0$0                          SPI
+     0000008B  _CP0HYP1                           SPI
+     0000008B  _CP1HYP1                           SPI
+     0000008B  _CP2HYP1                           SPI
+     0000008B  _IE1                               SPI
+     0000008B  _OSCICL                            SPI
+     0000008B  _TL1                               SPI
+     0000008C  G$CP0FIF$0$0                       SPI
+     0000008C  G$CP1FIF$0$0                       SPI
+     0000008C  G$CP2FIF$0$0                       SPI
+     0000008C  G$OSCXCN$0$0                       SPI
+     0000008C  G$TH0$0$0                          SPI
+     0000008C  G$TR0$0$0                          SPI
+     0000008C  _CP0FIF                            SPI
+     0000008C  _CP1FIF                            SPI
+     0000008C  _CP2FIF                            SPI
+     0000008C  _OSCXCN                            SPI
+     0000008C  _TH0                               SPI
+     0000008C  _TR0                               SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  G$CP0RIF$0$0                       SPI
+     0000008D  G$CP1RIF$0$0                       SPI
+     0000008D  G$CP2RIF$0$0                       SPI
+     0000008D  G$TF0$0$0                          SPI
+     0000008D  G$TH1$0$0                          SPI
+     0000008D  _CP0RIF                            SPI
+     0000008D  _CP1RIF                            SPI
+     0000008D  _CP2RIF                            SPI
+     0000008D  _TF0                               SPI
+     0000008D  _TH1                               SPI
+     0000008E  G$CKCON$0$0                        SPI
+     0000008E  G$CP0OUT$0$0                       SPI
+     0000008E  G$CP1OUT$0$0                       SPI
+     0000008E  G$CP2OUT$0$0                       SPI
+     0000008E  G$TR1$0$0                          SPI
+     0000008E  _CKCON                             SPI
+     0000008E  _CP0OUT                            SPI
+     0000008E  _CP1OUT                            SPI
+     0000008E  _CP2OUT                            SPI
+     0000008E  _TR1                               SPI
+     0000008F  G$CP0EN$0$0                        SPI
+     0000008F  G$CP1EN$0$0                        SPI
+     0000008F  G$CP2EN$0$0                        SPI
+     0000008F  G$PSCTL$0$0                        SPI
+     0000008F  G$TF1$0$0                          SPI
+     0000008F  _CP0EN                             SPI
+     0000008F  _CP1EN                             SPI
+     0000008F  _CP2EN                             SPI
+     0000008F  _PSCTL                             SPI
+     0000008F  _TF1                               SPI
+     00000090  G$P1$0$0                           SPI
+     00000090  G$P1_0$0$0                         SPI
+     00000090  _P1                                SPI
+     00000090  _P1_0                              SPI
+     00000091  G$P1_1$0$0                         SPI
+     00000091  G$SSTA0$0$0                        SPI
+     00000091  _P1_1                              SPI
+     00000091  _SSTA0                             SPI
+     00000092  G$P1_2$0$0                         SPI
+     00000092  _P1_2                              SPI
+     00000093  G$P1_3$0$0                         SPI
+     00000093  _P1_3                              SPI
+     00000094  G$P1_4$0$0                         SPI
+     00000094  _P1_4                              SPI
+     00000095  G$P1_5$0$0                         SPI
+     00000095  _P1_5                              SPI
+     00000096  G$P1_6$0$0                         SPI
+     00000096  G$SFRPGCN$0$0                      SPI
+     00000096  _P1_6                              SPI
+     00000096  _SFRPGCN                           SPI
+     00000097  G$CLKSEL$0$0                       SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000097  G$P1_7$0$0                         SPI
+     00000097  _CLKSEL                            SPI
+     00000097  _P1_7                              SPI
+     00000098  G$RI0$0$0                          SPI
+     00000098  G$RI1$0$0                          SPI
+     00000098  G$SCON0$0$0                        SPI
+     00000098  G$SCON1$0$0                        SPI
+     00000098  _RI0                               SPI
+     00000098  _RI1                               SPI
+     00000098  _SCON0                             SPI
+     00000098  _SCON1                             SPI
+     00000099  G$SBUF0$0$0                        SPI
+     00000099  G$SBUF1$0$0                        SPI
+     00000099  G$TI0$0$0                          SPI
+     00000099  G$TI1$0$0                          SPI
+     00000099  _SBUF0                             SPI
+     00000099  _SBUF1                             SPI
+     00000099  _TI0                               SPI
+     00000099  _TI1                               SPI
+     0000009A  G$RB80$0$0                         SPI
+     0000009A  G$RB81$0$0                         SPI
+     0000009A  G$SPI0CFG$0$0                      SPI
+     0000009A  _RB80                              SPI
+     0000009A  _RB81                              SPI
+     0000009A  _SPI0CFG                           SPI
+     0000009B  G$SPI0DAT$0$0                      SPI
+     0000009B  G$TB80$0$0                         SPI
+     0000009B  G$TB81$0$0                         SPI
+     0000009B  _SPI0DAT                           SPI
+     0000009B  _TB80                              SPI
+     0000009B  _TB81                              SPI
+     0000009C  G$P4MDOUT$0$0                      SPI
+     0000009C  G$REN0$0$0                         SPI
+     0000009C  G$REN1$0$0                         SPI
+     0000009C  _P4MDOUT                           SPI
+     0000009C  _REN0                              SPI
+     0000009C  _REN1                              SPI
+     0000009D  G$MCE1$0$0                         SPI
+     0000009D  G$P5MDOUT$0$0                      SPI
+     0000009D  G$SM20$0$0                         SPI
+     0000009D  G$SPI0CKR$0$0                      SPI
+     0000009D  _MCE1                              SPI
+     0000009D  _P5MDOUT                           SPI
+     0000009D  _SM20                              SPI
+     0000009D  _SPI0CKR                           SPI
+     0000009E  G$P6MDOUT$0$0                      SPI
+     0000009E  G$SM10$0$0                         SPI
+     0000009E  _P6MDOUT                           SPI
+     0000009E  _SM10                              SPI
+     0000009F  G$P7MDOUT$0$0                      SPI
+     0000009F  G$S1MODE$0$0                       SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  G$SM00$0$0                         SPI
+     0000009F  _P7MDOUT                           SPI
+     0000009F  _S1MODE                            SPI
+     0000009F  _SM00                              SPI
+     000000A0  G$P2$0$0                           SPI
+     000000A0  G$P2_0$0$0                         SPI
+     000000A0  _P2                                SPI
+     000000A0  _P2_0                              SPI
+     000000A1  G$EMI0TC$0$0                       SPI
+     000000A1  G$P2_1$0$0                         SPI
+     000000A1  _EMI0TC                            SPI
+     000000A1  _P2_1                              SPI
+     000000A2  G$EMI0CN$0$0                       SPI
+     000000A2  G$P2_2$0$0                         SPI
+     000000A2  G$_XPAGE$0$0                       SPI
+     000000A2  _EMI0CN                            SPI
+     000000A2  _P2_2                              SPI
+     000000A2  __XPAGE                            SPI
+     000000A3  G$EMI0CF$0$0                       SPI
+     000000A3  G$P2_3$0$0                         SPI
+     000000A3  _EMI0CF                            SPI
+     000000A3  _P2_3                              SPI
+     000000A4  G$P0MDOUT$0$0                      SPI
+     000000A4  G$P2_4$0$0                         SPI
+     000000A4  _P0MDOUT                           SPI
+     000000A4  _P2_4                              SPI
+     000000A5  G$P1MDOUT$0$0                      SPI
+     000000A5  G$P2_5$0$0                         SPI
+     000000A5  _P1MDOUT                           SPI
+     000000A5  _P2_5                              SPI
+     000000A6  G$P2MDOUT$0$0                      SPI
+     000000A6  G$P2_6$0$0                         SPI
+     000000A6  _P2MDOUT                           SPI
+     000000A6  _P2_6                              SPI
+     000000A7  G$P2_7$0$0                         SPI
+     000000A7  G$P3MDOUT$0$0                      SPI
+     000000A7  _P2_7                              SPI
+     000000A7  _P3MDOUT                           SPI
+     000000A8  G$EX0$0$0                          SPI
+     000000A8  G$IE$0$0                           SPI
+     000000A8  _EX0                               SPI
+     000000A8  _IE                                SPI
+     000000A9  G$ET0$0$0                          SPI
+     000000A9  G$SADDR0$0$0                       SPI
+     000000A9  G$SADDR1$0$0                       SPI
+     000000A9  _ET0                               SPI
+     000000A9  _SADDR0                            SPI
+     000000A9  _SADDR1                            SPI
+     000000AA  G$EX1$0$0                          SPI
+     000000AA  _EX1                               SPI
+     000000AB  G$ET1$0$0                          SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AB  _ET1                               SPI
+     000000AC  G$ES0$0$0                          SPI
+     000000AC  _ES0                               SPI
+     000000AD  G$ET2$0$0                          SPI
+     000000AD  G$P1MDIN$0$0                       SPI
+     000000AD  _ET2                               SPI
+     000000AD  _P1MDIN                            SPI
+     000000AE  G$P2MDIN$0$0                       SPI
+     000000AE  _P2MDIN                            SPI
+     000000AF  G$EA$0$0                           SPI
+     000000AF  G$P3MDIN$0$0                       SPI
+     000000AF  _EA                                SPI
+     000000AF  _P3MDIN                            SPI
+     000000B0  G$P3$0$0                           SPI
+     000000B0  G$P3_0$0$0                         SPI
+     000000B0  _P3                                SPI
+     000000B0  _P3_0                              SPI
+     000000B1  G$P3_1$0$0                         SPI
+     000000B1  _P3_1                              SPI
+     000000B2  G$P3_2$0$0                         SPI
+     000000B2  _P3_2                              SPI
+     000000B3  G$P3_3$0$0                         SPI
+     000000B3  _P3_3                              SPI
+     000000B4  G$P3_4$0$0                         SPI
+     000000B4  _P3_4                              SPI
+     000000B5  G$P3_5$0$0                         SPI
+     000000B5  _P3_5                              SPI
+     000000B6  G$P3_6$0$0                         SPI
+     000000B6  _P3_6                              SPI
+     000000B7  G$FLACL$0$0                        SPI
+     000000B7  G$FLSCL$0$0                        SPI
+     000000B7  G$P3_7$0$0                         SPI
+     000000B7  _FLACL                             SPI
+     000000B7  _FLSCL                             SPI
+     000000B7  _P3_7                              SPI
+     000000B8  G$IP$0$0                           SPI
+     000000B8  G$PX0$0$0                          SPI
+     000000B8  _IP                                SPI
+     000000B8  _PX0                               SPI
+     000000B9  G$PT0$0$0                          SPI
+     000000B9  G$SADEN0$0$0                       SPI
+     000000B9  _PT0                               SPI
+     000000B9  _SADEN0                            SPI
+     000000BA  G$AMX0CF$0$0                       SPI
+     000000BA  G$AMX2CF$0$0                       SPI
+     000000BA  G$PX1$0$0                          SPI
+     000000BA  _AMX0CF                            SPI
+     000000BA  _AMX2CF                            SPI
+     000000BA  _PX1                               SPI
+     000000BB  G$AMX0SL$0$0                       SPI
+     000000BB  G$AMX2SL$0$0                       SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000BB  G$PT1$0$0                          SPI
+     000000BB  _AMX0SL                            SPI
+     000000BB  _AMX2SL                            SPI
+     000000BB  _PT1                               SPI
+     000000BC  G$ADC0CF$0$0                       SPI
+     000000BC  G$ADC2CF$0$0                       SPI
+     000000BC  G$PS0$0$0                          SPI
+     000000BC  _ADC0CF                            SPI
+     000000BC  _ADC2CF                            SPI
+     000000BC  _PS0                               SPI
+     000000BD  G$AMX0PRT$0$0                      SPI
+     000000BD  G$PT2$0$0                          SPI
+     000000BD  _AMX0PRT                           SPI
+     000000BD  _PT2                               SPI
+     000000BE  G$ADC0L$0$0                        SPI
+     000000BE  G$ADC2$0$0                         SPI
+     000000BE  _ADC0L                             SPI
+     000000BE  _ADC2                              SPI
+     000000BF  G$ADC0H$0$0                        SPI
+     000000BF  _ADC0H                             SPI
+     000000C0  G$CAN0STA$0$0                      SPI
+     000000C0  G$LEC0$0$0                         SPI
+     000000C0  G$SMB0CN$0$0                       SPI
+     000000C0  G$SMBTOE$0$0                       SPI
+     000000C0  _CAN0STA                           SPI
+     000000C0  _LEC0                              SPI
+     000000C0  _SMB0CN                            SPI
+     000000C0  _SMBTOE                            SPI
+     000000C1  G$LEC1$0$0                         SPI
+     000000C1  G$SMB0STA$0$0                      SPI
+     000000C1  G$SMBFTE$0$0                       SPI
+     000000C1  _LEC1                              SPI
+     000000C1  _SMB0STA                           SPI
+     000000C1  _SMBFTE                            SPI
+     000000C2  G$AA$0$0                           SPI
+     000000C2  G$LEC2$0$0                         SPI
+     000000C2  G$SMB0DAT$0$0                      SPI
+     000000C2  _AA                                SPI
+     000000C2  _LEC2                              SPI
+     000000C2  _SMB0DAT                           SPI
+     000000C3  G$SI$0$0                           SPI
+     000000C3  G$SMB0ADR$0$0                      SPI
+     000000C3  G$TXOK$0$0                         SPI
+     000000C3  _SI                                SPI
+     000000C3  _SMB0ADR                           SPI
+     000000C3  _TXOK                              SPI
+     000000C4  G$ADC0GTL$0$0                      SPI
+     000000C4  G$ADC2GT$0$0                       SPI
+     000000C4  G$RXOK$0$0                         SPI
+     000000C4  G$STO$0$0                          SPI
+     000000C4  _ADC0GTL                           SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C4  _ADC2GT                            SPI
+     000000C4  _RXOK                              SPI
+     000000C4  _STO                               SPI
+     000000C5  G$ADC0GTH$0$0                      SPI
+     000000C5  G$EPASS$0$0                        SPI
+     000000C5  G$STA$0$0                          SPI
+     000000C5  _ADC0GTH                           SPI
+     000000C5  _EPASS                             SPI
+     000000C5  _STA                               SPI
+     000000C6  G$ADC0LTL$0$0                      SPI
+     000000C6  G$ADC2LT$0$0                       SPI
+     000000C6  G$ENSMB$0$0                        SPI
+     000000C6  G$EWARN$0$0                        SPI
+     000000C6  _ADC0LTL                           SPI
+     000000C6  _ADC2LT                            SPI
+     000000C6  _ENSMB                             SPI
+     000000C6  _EWARN                             SPI
+     000000C7  G$ADC0LTH$0$0                      SPI
+     000000C7  G$BOFF$0$0                         SPI
+     000000C7  G$BUSY$0$0                         SPI
+     000000C7  _ADC0LTH                           SPI
+     000000C7  _BOFF                              SPI
+     000000C7  _BUSY                              SPI
+     000000C8  G$CPRL2$0$0                        SPI
+     000000C8  G$CPRL3$0$0                        SPI
+     000000C8  G$CPRL4$0$0                        SPI
+     000000C8  G$P4$0$0                           SPI
+     000000C8  G$P4_0$0$0                         SPI
+     000000C8  G$TMR2CN$0$0                       SPI
+     000000C8  G$TMR3CN$0$0                       SPI
+     000000C8  G$TMR4CN$0$0                       SPI
+     000000C8  _CPRL2                             SPI
+     000000C8  _CPRL3                             SPI
+     000000C8  _CPRL4                             SPI
+     000000C8  _P4                                SPI
+     000000C8  _P4_0                              SPI
+     000000C8  _TMR2CN                            SPI
+     000000C8  _TMR3CN                            SPI
+     000000C8  _TMR4CN                            SPI
+     000000C9  G$CT2$0$0                          SPI
+     000000C9  G$CT3$0$0                          SPI
+     000000C9  G$CT4$0$0                          SPI
+     000000C9  G$P4_1$0$0                         SPI
+     000000C9  G$TMR2CF$0$0                       SPI
+     000000C9  G$TMR3CF$0$0                       SPI
+     000000C9  G$TMR4CF$0$0                       SPI
+     000000C9  _CT2                               SPI
+     000000C9  _CT3                               SPI
+     000000C9  _CT4                               SPI
+     000000C9  _P4_1                              SPI
+     000000C9  _TMR2CF                            SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C9  _TMR3CF                            SPI
+     000000C9  _TMR4CF                            SPI
+     000000CA  G$P4_2$0$0                         SPI
+     000000CA  G$RCAP2L$0$0                       SPI
+     000000CA  G$RCAP3L$0$0                       SPI
+     000000CA  G$RCAP4L$0$0                       SPI
+     000000CA  G$TR2$0$0                          SPI
+     000000CA  G$TR3$0$0                          SPI
+     000000CA  G$TR4$0$0                          SPI
+     000000CA  _P4_2                              SPI
+     000000CA  _RCAP2L                            SPI
+     000000CA  _RCAP3L                            SPI
+     000000CA  _RCAP4L                            SPI
+     000000CA  _TR2                               SPI
+     000000CA  _TR3                               SPI
+     000000CA  _TR4                               SPI
+     000000CB  G$EXEN2$0$0                        SPI
+     000000CB  G$EXEN3$0$0                        SPI
+     000000CB  G$EXEN4$0$0                        SPI
+     000000CB  G$P4_3$0$0                         SPI
+     000000CB  G$RCAP2H$0$0                       SPI
+     000000CB  G$RCAP3H$0$0                       SPI
+     000000CB  G$RCAP4H$0$0                       SPI
+     000000CB  _EXEN2                             SPI
+     000000CB  _EXEN3                             SPI
+     000000CB  _EXEN4                             SPI
+     000000CB  _P4_3                              SPI
+     000000CB  _RCAP2H                            SPI
+     000000CB  _RCAP3H                            SPI
+     000000CB  _RCAP4H                            SPI
+     000000CC  G$P4_4$0$0                         SPI
+     000000CC  G$TMR2L$0$0                        SPI
+     000000CC  G$TMR3L$0$0                        SPI
+     000000CC  G$TMR4L$0$0                        SPI
+     000000CC  _P4_4                              SPI
+     000000CC  _TMR2L                             SPI
+     000000CC  _TMR3L                             SPI
+     000000CC  _TMR4L                             SPI
+     000000CD  G$P4_5$0$0                         SPI
+     000000CD  G$TMR2H$0$0                        SPI
+     000000CD  G$TMR3H$0$0                        SPI
+     000000CD  G$TMR4H$0$0                        SPI
+     000000CD  _P4_5                              SPI
+     000000CD  _TMR2H                             SPI
+     000000CD  _TMR3H                             SPI
+     000000CD  _TMR4H                             SPI
+     000000CE  G$EXF2$0$0                         SPI
+     000000CE  G$EXF3$0$0                         SPI
+     000000CE  G$EXF4$0$0                         SPI
+     000000CE  G$P4_6$0$0                         SPI
+     000000CE  _EXF2                              SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CE  _EXF3                              SPI
+     000000CE  _EXF4                              SPI
+     000000CE  _P4_6                              SPI
+     000000CF  G$P4_7$0$0                         SPI
+     000000CF  G$SMB0CR$0$0                       SPI
+     000000CF  G$TF2$0$0                          SPI
+     000000CF  G$TF3$0$0                          SPI
+     000000CF  G$TF4$0$0                          SPI
+     000000CF  _P4_7                              SPI
+     000000CF  _SMB0CR                            SPI
+     000000CF  _TF2                               SPI
+     000000CF  _TF3                               SPI
+     000000CF  _TF4                               SPI
+     000000D0  G$P$0$0                            SPI
+     000000D0  G$PSW$0$0                          SPI
+     000000D0  _P                                 SPI
+     000000D0  _PSW                               SPI
+     000000D1  G$F1$0$0                           SPI
+     000000D1  G$REF0CN$0$0                       SPI
+     000000D1  _F1                                SPI
+     000000D1  _REF0CN                            SPI
+     000000D2  G$DAC0L$0$0                        SPI
+     000000D2  G$DAC1L$0$0                        SPI
+     000000D2  G$OV$0$0                           SPI
+     000000D2  _DAC0L                             SPI
+     000000D2  _DAC1L                             SPI
+     000000D2  _OV                                SPI
+     000000D3  G$DAC0H$0$0                        SPI
+     000000D3  G$DAC1H$0$0                        SPI
+     000000D3  G$RS0$0$0                          SPI
+     000000D3  _DAC0H                             SPI
+     000000D3  _DAC1H                             SPI
+     000000D3  _RS0                               SPI
+     000000D4  G$DAC0CN$0$0                       SPI
+     000000D4  G$DAC1CN$0$0                       SPI
+     000000D4  G$RS1$0$0                          SPI
+     000000D4  _DAC0CN                            SPI
+     000000D4  _DAC1CN                            SPI
+     000000D4  _RS1                               SPI
+     000000D5  G$F0$0$0                           SPI
+     000000D5  _F0                                SPI
+     000000D6  G$AC$0$0                           SPI
+     000000D6  G$HVA0CN$0$0                       SPI
+     000000D6  _AC                                SPI
+     000000D6  _HVA0CN                            SPI
+     000000D7  G$CY$0$0                           SPI
+     000000D7  _CY                                SPI
+     000000D8  G$CAN0DATL$0$0                     SPI
+     000000D8  G$CCF0$0$0                         SPI
+     000000D8  G$P5$0$0                           SPI
+     000000D8  G$P5_0$0$0                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D8  G$PCA0CN$0$0                       SPI
+     000000D8  _CAN0DATL                          SPI
+     000000D8  _CCF0                              SPI
+     000000D8  _P5                                SPI
+     000000D8  _P5_0                              SPI
+     000000D8  _PCA0CN                            SPI
+     000000D9  G$CAN0DATH$0$0                     SPI
+     000000D9  G$CCF1$0$0                         SPI
+     000000D9  G$P5_1$0$0                         SPI
+     000000D9  G$PCA0MD$0$0                       SPI
+     000000D9  _CAN0DATH                          SPI
+     000000D9  _CCF1                              SPI
+     000000D9  _P5_1                              SPI
+     000000D9  _PCA0MD                            SPI
+     000000DA  G$CAN0ADR$0$0                      SPI
+     000000DA  G$CCF2$0$0                         SPI
+     000000DA  G$P5_2$0$0                         SPI
+     000000DA  G$PCA0CPM0$0$0                     SPI
+     000000DA  _CAN0ADR                           SPI
+     000000DA  _CCF2                              SPI
+     000000DA  _P5_2                              SPI
+     000000DA  _PCA0CPM0                          SPI
+     000000DB  G$CAN0TST$0$0                      SPI
+     000000DB  G$CCF3$0$0                         SPI
+     000000DB  G$P5_3$0$0                         SPI
+     000000DB  G$PCA0CPM1$0$0                     SPI
+     000000DB  _CAN0TST                           SPI
+     000000DB  _CCF3                              SPI
+     000000DB  _P5_3                              SPI
+     000000DB  _PCA0CPM1                          SPI
+     000000DC  G$CCF4$0$0                         SPI
+     000000DC  G$P5_4$0$0                         SPI
+     000000DC  G$PCA0CPM2$0$0                     SPI
+     000000DC  _CCF4                              SPI
+     000000DC  _P5_4                              SPI
+     000000DC  _PCA0CPM2                          SPI
+     000000DD  G$CCF5$0$0                         SPI
+     000000DD  G$P5_5$0$0                         SPI
+     000000DD  G$PCA0CPM3$0$0                     SPI
+     000000DD  _CCF5                              SPI
+     000000DD  _P5_5                              SPI
+     000000DD  _PCA0CPM3                          SPI
+     000000DE  G$CR$0$0                           SPI
+     000000DE  G$P5_6$0$0                         SPI
+     000000DE  G$PCA0CPM4$0$0                     SPI
+     000000DE  _CR                                SPI
+     000000DE  _P5_6                              SPI
+     000000DE  _PCA0CPM4                          SPI
+     000000DF  G$CF$0$0                           SPI
+     000000DF  G$P5_7$0$0                         SPI
+     000000DF  G$PCA0CPM5$0$0                     SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DF  _CF                                SPI
+     000000DF  _P5_7                              SPI
+     000000DF  _PCA0CPM5                          SPI
+     000000E0  G$ACC$0$0                          SPI
+     000000E0  _ACC                               SPI
+     000000E1  G$PCA0CPL5$0$0                     SPI
+     000000E1  G$XBR0$0$0                         SPI
+     000000E1  _PCA0CPL5                          SPI
+     000000E1  _XBR0                              SPI
+     000000E2  G$PCA0CPH5$0$0                     SPI
+     000000E2  G$XBR1$0$0                         SPI
+     000000E2  _PCA0CPH5                          SPI
+     000000E2  _XBR1                              SPI
+     000000E3  G$XBR2$0$0                         SPI
+     000000E3  _XBR2                              SPI
+     000000E4  G$XBR3$0$0                         SPI
+     000000E4  _XBR3                              SPI
+     000000E6  G$EIE1$0$0                         SPI
+     000000E6  _EIE1                              SPI
+     000000E7  G$EIE2$0$0                         SPI
+     000000E7  _EIE2                              SPI
+     000000E8  G$AD0LJST$0$0                      SPI
+     000000E8  G$AD2WINT$0$0                      SPI
+     000000E8  G$ADC0CN$0$0                       SPI
+     000000E8  G$ADC2CN$0$0                       SPI
+     000000E8  G$P6$0$0                           SPI
+     000000E8  G$P6_0$0$0                         SPI
+     000000E8  _AD0LJST                           SPI
+     000000E8  _AD2WINT                           SPI
+     000000E8  _ADC0CN                            SPI
+     000000E8  _ADC2CN                            SPI
+     000000E8  _P6                                SPI
+     000000E8  _P6_0                              SPI
+     000000E9  G$AD0WINT$0$0                      SPI
+     000000E9  G$AD2CM0$0$0                       SPI
+     000000E9  G$P6_1$0$0                         SPI
+     000000E9  G$PCA0CPL2$0$0                     SPI
+     000000E9  _AD0WINT                           SPI
+     000000E9  _AD2CM0                            SPI
+     000000E9  _P6_1                              SPI
+     000000E9  _PCA0CPL2                          SPI
+     000000EA  G$AD0CM0$0$0                       SPI
+     000000EA  G$AD2CM1$0$0                       SPI
+     000000EA  G$P6_2$0$0                         SPI
+     000000EA  G$PCA0CPH2$0$0                     SPI
+     000000EA  _AD0CM0                            SPI
+     000000EA  _AD2CM1                            SPI
+     000000EA  _P6_2                              SPI
+     000000EA  _PCA0CPH2                          SPI
+     000000EB  G$AD0CM1$0$0                       SPI
+     000000EB  G$AD2CM2$0$0                       SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EB  G$P6_3$0$0                         SPI
+     000000EB  G$PCA0CPL3$0$0                     SPI
+     000000EB  _AD0CM1                            SPI
+     000000EB  _AD2CM2                            SPI
+     000000EB  _P6_3                              SPI
+     000000EB  _PCA0CPL3                          SPI
+     000000EC  G$AD0BUSY$0$0                      SPI
+     000000EC  G$AD2BUSY$0$0                      SPI
+     000000EC  G$P6_4$0$0                         SPI
+     000000EC  G$PCA0CPH3$0$0                     SPI
+     000000EC  _AD0BUSY                           SPI
+     000000EC  _AD2BUSY                           SPI
+     000000EC  _P6_4                              SPI
+     000000EC  _PCA0CPH3                          SPI
+     000000ED  G$AD0INT$0$0                       SPI
+     000000ED  G$AD2INT$0$0                       SPI
+     000000ED  G$P6_5$0$0                         SPI
+     000000ED  G$PCA0CPL4$0$0                     SPI
+     000000ED  _AD0INT                            SPI
+     000000ED  _AD2INT                            SPI
+     000000ED  _P6_5                              SPI
+     000000ED  _PCA0CPL4                          SPI
+     000000EE  G$AD0TM$0$0                        SPI
+     000000EE  G$AD2TM$0$0                        SPI
+     000000EE  G$P6_6$0$0                         SPI
+     000000EE  G$PCA0CPH4$0$0                     SPI
+     000000EE  _AD0TM                             SPI
+     000000EE  _AD2TM                             SPI
+     000000EE  _P6_6                              SPI
+     000000EE  _PCA0CPH4                          SPI
+     000000EF  G$AD0EN$0$0                        SPI
+     000000EF  G$AD2EN$0$0                        SPI
+     000000EF  G$P6_7$0$0                         SPI
+     000000EF  G$RSTSRC$0$0                       SPI
+     000000EF  _AD0EN                             SPI
+     000000EF  _AD2EN                             SPI
+     000000EF  _P6_7                              SPI
+     000000EF  _RSTSRC                            SPI
+     000000F0  G$B$0$0                            SPI
+     000000F0  _B                                 SPI
+     000000F5  _B_5                               _gptrget
+     000000F6  G$EIP1$0$0                         SPI
+     000000F6  _B_6                               _gptrget
+     000000F6  _EIP1                              SPI
+     000000F7  G$EIP2$0$0                         SPI
+     000000F7  _B_7                               _gptrget
+     000000F7  _EIP2                              SPI
+     000000F8  G$CAN0CN$0$0                       SPI
+     000000F8  G$CANINIT$0$0                      SPI
+     000000F8  G$P7$0$0                           SPI
+     000000F8  G$P7_0$0$0                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F8  G$SPI0CN$0$0                       SPI
+     000000F8  G$SPIEN$0$0                        SPI
+     000000F8  _CAN0CN                            SPI
+     000000F8  _CANINIT                           SPI
+     000000F8  _P7                                SPI
+     000000F8  _P7_0                              SPI
+     000000F8  _SPI0CN                            SPI
+     000000F8  _SPIEN                             SPI
+     000000F9  G$CANIE$0$0                        SPI
+     000000F9  G$P7_1$0$0                         SPI
+     000000F9  G$PCA0L$0$0                        SPI
+     000000F9  G$TXBMT$0$0                        SPI
+     000000F9  _CANIE                             SPI
+     000000F9  _P7_1                              SPI
+     000000F9  _PCA0L                             SPI
+     000000F9  _TXBMT                             SPI
+     000000FA  G$CANSIE$0$0                       SPI
+     000000FA  G$NSSMD0$0$0                       SPI
+     000000FA  G$P7_2$0$0                         SPI
+     000000FA  G$PCA0H$0$0                        SPI
+     000000FA  _CANSIE                            SPI
+     000000FA  _NSSMD0                            SPI
+     000000FA  _P7_2                              SPI
+     000000FA  _PCA0H                             SPI
+     000000FB  G$CANEIE$0$0                       SPI
+     000000FB  G$NSSMD1$0$0                       SPI
+     000000FB  G$P7_3$0$0                         SPI
+     000000FB  G$PCA0CPL0$0$0                     SPI
+     000000FB  _CANEIE                            SPI
+     000000FB  _NSSMD1                            SPI
+     000000FB  _P7_3                              SPI
+     000000FB  _PCA0CPL0                          SPI
+     000000FC  G$CANIF$0$0                        SPI
+     000000FC  G$P7_4$0$0                         SPI
+     000000FC  G$PCA0CPH0$0$0                     SPI
+     000000FC  G$RXOVRN$0$0                       SPI
+     000000FC  _CANIF                             SPI
+     000000FC  _P7_4                              SPI
+     000000FC  _PCA0CPH0                          SPI
+     000000FC  _RXOVRN                            SPI
+     000000FD  G$CANDAR$0$0                       SPI
+     000000FD  G$MODF$0$0                         SPI
+     000000FD  G$P7_5$0$0                         SPI
+     000000FD  G$PCA0CPL1$0$0                     SPI
+     000000FD  _CANDAR                            SPI
+     000000FD  _MODF                              SPI
+     000000FD  _P7_5                              SPI
+     000000FD  _PCA0CPL1                          SPI
+     000000FE  G$CANCCE$0$0                       SPI
+     000000FE  G$P7_6$0$0                         SPI
+     000000FE  G$PCA0CPH1$0$0                     SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000FE  G$WCOL$0$0                         SPI
+     000000FE  _CANCCE                            SPI
+     000000FE  _P7_6                              SPI
+     000000FE  _PCA0CPH1                          SPI
+     000000FE  _WCOL                              SPI
+     000000FF  G$CANTEST$0$0                      SPI
+     000000FF  G$P7_7$0$0                         SPI
+     000000FF  G$SPIF$0$0                         SPI
+     000000FF  G$WDTCN$0$0                        SPI
+     000000FF  _CANTEST                           SPI
+     000000FF  _P7_7                              SPI
+     000000FF  _SPIF                              SPI
+     000000FF  _WDTCN                             SPI
+     00008382  G$DP$0$0                           SPI
+     00008382  _DP                                SPI
+     0000BFBE  G$ADC0$0$0                         SPI
+     0000BFBE  _ADC0                              SPI
+     0000C5C4  G$ADC0GT$0$0                       SPI
+     0000C5C4  _ADC0GT                            SPI
+     0000C7C6  G$ADC0LT$0$0                       SPI
+     0000C7C6  _ADC0LT                            SPI
+     0000CBCA  G$RCAP2$0$0                        SPI
+     0000CBCA  G$RCAP3$0$0                        SPI
+     0000CBCA  G$RCAP4$0$0                        SPI
+     0000CBCA  _RCAP2                             SPI
+     0000CBCA  _RCAP3                             SPI
+     0000CBCA  _RCAP4                             SPI
+     0000CDCC  G$TMR2$0$0                         SPI
+     0000CDCC  G$TMR3$0$0                         SPI
+     0000CDCC  G$TMR4$0$0                         SPI
+     0000CDCC  _TMR2                              SPI
+     0000CDCC  _TMR3                              SPI
+     0000CDCC  _TMR4                              SPI
+     0000D3D2  G$DAC0$0$0                         SPI
+     0000D3D2  G$DAC1$0$0                         SPI
+     0000D3D2  _DAC0                              SPI
+     0000D3D2  _DAC1                              SPI
+     0000D9D8  G$CAN0DAT$0$0                      SPI
+     0000D9D8  _CAN0DAT                           SPI
+     0000E2E1  G$PCA0CP5$0$0                      SPI
+     0000E2E1  _PCA0CP5                           SPI
+     0000EAE9  G$PCA0CP2$0$0                      SPI
+     0000EAE9  _PCA0CP2                           SPI
+     0000ECEB  G$PCA0CP3$0$0                      SPI
+     0000ECEB  _PCA0CP3                           SPI
+     0000EEED  G$PCA0CP4$0$0                      SPI
+     0000EEED  _PCA0CP4                           SPI
+     0000FAF9  G$PCA0$0$0                         SPI
+     0000FAF9  _PCA0                              SPI
+     0000FCFB  G$PCA0CP0$0$0                      SPI
+     0000FCFB  _PCA0CP0                           SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FEFD  G$PCA0CP1$0$0                      SPI
+     0000FEFD  _PCA0CP1                           SPI
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000075 =         117. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  FSPI$carac_esc$0$0                 SPI
+     0000000A  FSPI$pag_esc$0$0                   SPI
+     00000012  _bp                                _bp
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000013    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000013  LSPI.esc_RAM_SPI$dado$1$60         SPI
+     00000013  __mulint_PARM_2                    _mulint
+     00000013  _esc_RAM_SPI_PARM_2                SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000023    000000DD =         221. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000023  __start__stack                     SPI
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$SPI$1313                         SPI
+C:   00000003  A$SPI$1335                         SPI
+C:   00000003  __sdcc_program_startup             SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000006    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000006  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000009    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000013    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000013  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000035    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000035  __mcs51_genRAMCLEAR                
+C:   0000003B  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000005F    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005F  A$SPI$1328                         SPI
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000062  A$SPI$1361                         SPI
+C:   00000062  C$config.c$10$0$0                  SPI
+C:   00000062  C$config.c$12$1$1                  SPI
+C:   00000062  G$Reset_Sources_Init$0$0           SPI
+C:   00000062  _Reset_Sources_Init                SPI
+C:   00000065  A$SPI$1364                         SPI
+C:   00000065  C$config.c$13$1$1                  SPI
+C:   00000068  A$SPI$1367                         SPI
+C:   00000068  C$config.c$14$1$1                  SPI
+C:   00000068  XG$Reset_Sources_Init$0$0          SPI
+C:   00000069  A$SPI$1380                         SPI
+C:   00000069  C$config.c$16$1$1                  SPI
+C:   00000069  C$config.c$18$1$2                  SPI
+C:   00000069  G$Timer_Init$0$0                   SPI
+C:   00000069  _Timer_Init                        SPI
+C:   0000006C  A$SPI$1383                         SPI
+C:   0000006C  C$config.c$19$1$2                  SPI
+C:   0000006F  A$SPI$1386                         SPI
+C:   0000006F  C$config.c$20$1$2                  SPI
+C:   00000072  A$SPI$1389                         SPI
+C:   00000072  C$config.c$21$1$2                  SPI
+C:   00000075  A$SPI$1392                         SPI
+C:   00000075  C$config.c$22$1$2                  SPI
+C:   00000078  A$SPI$1395                         SPI
+C:   00000078  C$config.c$23$1$2                  SPI
+C:   0000007B  A$SPI$1398                         SPI
+C:   0000007B  C$config.c$24$1$2                  SPI
+C:   0000007E  A$SPI$1401                         SPI
+C:   0000007E  C$config.c$25$1$2                  SPI
+C:   00000081  A$SPI$1404                         SPI
+C:   00000081  C$config.c$26$1$2                  SPI
+C:   00000084  A$SPI$1407                         SPI
+C:   00000084  C$config.c$27$1$2                  SPI
+C:   00000087  A$SPI$1410                         SPI
+C:   00000087  C$config.c$28$1$2                  SPI
+C:   0000008A  A$SPI$1413                         SPI
+C:   0000008A  C$config.c$29$1$2                  SPI
+C:   0000008D  A$SPI$1416                         SPI
+C:   0000008D  C$config.c$30$1$2                  SPI
+C:   00000090  A$SPI$1419                         SPI
+C:   00000090  C$config.c$31$1$2                  SPI
+C:   00000093  A$SPI$1422                         SPI
+C:   00000093  C$config.c$32$1$2                  SPI
+C:   00000096  A$SPI$1425                         SPI
+C:   00000096  C$config.c$33$1$2                  SPI
+C:   00000099  A$SPI$1428                         SPI
+C:   00000099  C$config.c$34$1$2                  SPI
+C:   00000099  XG$Timer_Init$0$0                  SPI
+C:   0000009A  A$SPI$1441                         SPI
+C:   0000009A  C$config.c$36$1$2                  SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000009A  C$config.c$38$1$3                  SPI
+C:   0000009A  G$PCA_Init$0$0                     SPI
+C:   0000009A  _PCA_Init                          SPI
+C:   0000009D  A$SPI$1444                         SPI
+C:   0000009D  C$config.c$39$1$3                  SPI
+C:   000000A0  A$SPI$1447                         SPI
+C:   000000A0  C$config.c$40$1$3                  SPI
+C:   000000A3  A$SPI$1450                         SPI
+C:   000000A3  C$config.c$41$1$3                  SPI
+C:   000000A6  A$SPI$1453                         SPI
+C:   000000A6  C$config.c$42$1$3                  SPI
+C:   000000A9  A$SPI$1456                         SPI
+C:   000000A9  C$config.c$43$1$3                  SPI
+C:   000000A9  XG$PCA_Init$0$0                    SPI
+C:   000000AA  A$SPI$1469                         SPI
+C:   000000AA  C$config.c$45$1$3                  SPI
+C:   000000AA  C$config.c$47$1$4                  SPI
+C:   000000AA  G$UART_Init$0$0                    SPI
+C:   000000AA  _UART_Init                         SPI
+C:   000000AD  A$SPI$1472                         SPI
+C:   000000AD  C$config.c$48$1$4                  SPI
+C:   000000B0  A$SPI$1475                         SPI
+C:   000000B0  C$config.c$49$1$4                  SPI
+C:   000000B0  XG$UART_Init$0$0                   SPI
+C:   000000B1  A$SPI$1488                         SPI
+C:   000000B1  C$config.c$51$1$4                  SPI
+C:   000000B1  C$config.c$53$1$5                  SPI
+C:   000000B1  G$SMBus_Init$0$0                   SPI
+C:   000000B1  _SMBus_Init                        SPI
+C:   000000B4  A$SPI$1491                         SPI
+C:   000000B4  C$config.c$54$1$5                  SPI
+C:   000000B7  A$SPI$1494                         SPI
+C:   000000B7  C$config.c$55$1$5                  SPI
+C:   000000BA  A$SPI$1497                         SPI
+C:   000000BA  C$config.c$56$1$5                  SPI
+C:   000000BA  XG$SMBus_Init$0$0                  SPI
+C:   000000BB  A$SPI$1510                         SPI
+C:   000000BB  C$config.c$58$1$5                  SPI
+C:   000000BB  C$config.c$60$1$6                  SPI
+C:   000000BB  G$SPI_Init$0$0                     SPI
+C:   000000BB  _SPI_Init                          SPI
+C:   000000BE  A$SPI$1513                         SPI
+C:   000000BE  C$config.c$61$1$6                  SPI
+C:   000000C1  A$SPI$1516                         SPI
+C:   000000C1  C$config.c$62$1$6                  SPI
+C:   000000C4  A$SPI$1519                         SPI
+C:   000000C4  C$config.c$63$1$6                  SPI
+C:   000000C7  A$SPI$1522                         SPI
+C:   000000C7  C$config.c$64$1$6                  SPI
+C:   000000C7  XG$SPI_Init$0$0                    SPI
+C:   000000C8  A$SPI$1535                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000C8  C$config.c$66$1$6                  SPI
+C:   000000C8  C$config.c$68$1$7                  SPI
+C:   000000C8  G$DAC_Init$0$0                     SPI
+C:   000000C8  _DAC_Init                          SPI
+C:   000000CB  A$SPI$1538                         SPI
+C:   000000CB  C$config.c$69$1$7                  SPI
+C:   000000CE  A$SPI$1541                         SPI
+C:   000000CE  C$config.c$70$1$7                  SPI
+C:   000000CE  XG$DAC_Init$0$0                    SPI
+C:   000000CF  A$SPI$1554                         SPI
+C:   000000CF  C$config.c$72$1$7                  SPI
+C:   000000CF  C$config.c$74$1$8                  SPI
+C:   000000CF  G$Voltage_Reference_Init$0$0       SPI
+C:   000000CF  _Voltage_Reference_Init            SPI
+C:   000000D2  A$SPI$1557                         SPI
+C:   000000D2  C$config.c$75$1$8                  SPI
+C:   000000D5  A$SPI$1560                         SPI
+C:   000000D5  C$config.c$76$1$8                  SPI
+C:   000000D5  XG$Voltage_Reference_Init$0$0      SPI
+C:   000000D6  A$SPI$1573                         SPI
+C:   000000D6  C$config.c$116$1$9                 SPI
+C:   000000D6  C$config.c$78$1$8                  SPI
+C:   000000D6  G$Port_IO_Init$0$0                 SPI
+C:   000000D6  _Port_IO_Init                      SPI
+C:   000000D9  A$SPI$1576                         SPI
+C:   000000D9  C$config.c$117$1$9                 SPI
+C:   000000DC  A$SPI$1579                         SPI
+C:   000000DC  C$config.c$118$1$9                 SPI
+C:   000000DF  A$SPI$1582                         SPI
+C:   000000DF  C$config.c$119$1$9                 SPI
+C:   000000E2  A$SPI$1585                         SPI
+C:   000000E2  C$config.c$120$1$9                 SPI
+C:   000000E5  A$SPI$1588                         SPI
+C:   000000E5  C$config.c$121$1$9                 SPI
+C:   000000E5  XG$Port_IO_Init$0$0                SPI
+C:   000000E6  A$SPI$1603                         SPI
+C:   000000E6  C$config.c$123$1$9                 SPI
+C:   000000E6  C$config.c$126$1$10                SPI
+C:   000000E6  G$Oscillator_Init$0$0              SPI
+C:   000000E6  _Oscillator_Init                   SPI
+C:   000000E9  A$SPI$1606                         SPI
+C:   000000E9  C$config.c$127$1$10                SPI
+C:   000000EC  A$SPI$1609                         SPI
+C:   000000EC  C$config.c$128$1$10                SPI
+C:   000000EE  A$SPI$1610                         SPI
+C:   000000F0  A$SPI$1612                         SPI
+C:   000000F1  A$SPI$1613                         SPI
+C:   000000F3  A$SPI$1614                         SPI
+C:   000000F4  A$SPI$1615                         SPI
+C:   000000F5  A$SPI$1616                         SPI
+C:   000000F7  A$SPI$1617                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000F8  A$SPI$1618                         SPI
+C:   000000FA  A$SPI$1619                         SPI
+C:   000000FC  A$SPI$1620                         SPI
+C:   000000FD  A$SPI$1621                         SPI
+C:   000000FE  A$SPI$1622                         SPI
+C:   00000100  A$SPI$1626                         SPI
+C:   00000100  C$config.c$129$1$10                SPI
+C:   00000102  A$SPI$1627                         SPI
+C:   00000105  A$SPI$1630                         SPI
+C:   00000105  C$config.c$130$1$10                SPI
+C:   00000108  A$SPI$1633                         SPI
+C:   00000108  C$config.c$131$1$10                SPI
+C:   0000010B  A$SPI$1636                         SPI
+C:   0000010B  C$config.c$132$1$10                SPI
+C:   0000010B  XG$Oscillator_Init$0$0             SPI
+C:   0000010C  A$SPI$1649                         SPI
+C:   0000010C  C$config.c$134$1$10                SPI
+C:   0000010C  C$config.c$136$1$11                SPI
+C:   0000010C  G$Interrupts_Init$0$0              SPI
+C:   0000010C  _Interrupts_Init                   SPI
+C:   0000010F  A$SPI$1652                         SPI
+C:   0000010F  C$config.c$137$1$11                SPI
+C:   0000010F  XG$Interrupts_Init$0$0             SPI
+C:   00000110  A$SPI$1665                         SPI
+C:   00000110  C$config.c$141$1$11                SPI
+C:   00000110  C$config.c$143$1$13                SPI
+C:   00000110  G$Init_Device$0$0                  SPI
+C:   00000110  _Init_Device                       SPI
+C:   00000113  A$SPI$1668                         SPI
+C:   00000113  C$config.c$144$1$13                SPI
+C:   00000116  A$SPI$1671                         SPI
+C:   00000116  C$config.c$145$1$13                SPI
+C:   00000119  A$SPI$1674                         SPI
+C:   00000119  C$config.c$146$1$13                SPI
+C:   0000011C  A$SPI$1677                         SPI
+C:   0000011C  C$config.c$147$1$13                SPI
+C:   0000011F  A$SPI$1680                         SPI
+C:   0000011F  C$config.c$148$1$13                SPI
+C:   00000122  A$SPI$1683                         SPI
+C:   00000122  C$config.c$149$1$13                SPI
+C:   00000125  A$SPI$1686                         SPI
+C:   00000125  C$config.c$150$1$13                SPI
+C:   00000128  A$SPI$1689                         SPI
+C:   00000128  C$config.c$151$1$13                SPI
+C:   0000012B  A$SPI$1692                         SPI
+C:   0000012B  C$config.c$152$1$13                SPI
+C:   0000012E  A$SPI$1695                         SPI
+C:   0000012E  C$config.c$153$1$13                SPI
+C:   00000131  A$SPI$1698                         SPI
+C:   00000131  C$config.c$154$1$13                SPI
+C:   00000131  XG$Init_Device$0$0                 SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000132  A$SPI$1711                         SPI
+C:   00000132  C$util.h$131$1$13                  SPI
+C:   00000132  G$delay_ms$0$0                     SPI
+C:   00000132  _delay_ms                          SPI
+C:   00000134  A$SPI$1712                         SPI
+C:   00000136  A$SPI$1715                         SPI
+C:   00000136  C$util.h$134$1$16                  SPI
+C:   00000139  A$SPI$1718                         SPI
+C:   00000139  C$util.h$135$1$16                  SPI
+C:   0000013C  A$SPI$1722                         SPI
+C:   0000013D  A$SPI$1723                         SPI
+C:   0000013E  A$SPI$1724                         SPI
+C:   00000140  A$SPI$1727                         SPI
+C:   00000140  C$util.h$140$2$17                  SPI
+C:   00000142  A$SPI$1730                         SPI
+C:   00000142  C$util.h$141$2$17                  SPI
+C:   00000144  A$SPI$1733                         SPI
+C:   00000144  C$util.h$143$2$17                  SPI
+C:   00000147  A$SPI$1736                         SPI
+C:   00000147  C$util.h$145$2$17                  SPI
+C:   0000014A  A$SPI$1739                         SPI
+C:   0000014A  C$util.h$147$2$17                  SPI
+C:   0000014C  A$SPI$1743                         SPI
+C:   0000014C  C$util.h$149$2$17                  SPI
+C:   0000014F  A$SPI$1746                         SPI
+C:   0000014F  C$util.h$138$1$16                  SPI
+C:   00000150  A$SPI$1747                         SPI
+C:   00000153  A$SPI$1748                         SPI
+C:   00000154  A$SPI$1750                         SPI
+C:   00000156  A$SPI$1754                         SPI
+C:   00000156  C$util.h$152$1$16                  SPI
+C:   00000156  XG$delay_ms$0$0                    SPI
+C:   00000157  A$SPI$1767                         SPI
+C:   00000157  C$util.h$154$1$16                  SPI
+C:   00000157  G$delay_us$0$0                     SPI
+C:   00000157  _delay_us                          SPI
+C:   00000159  A$SPI$1768                         SPI
+C:   0000015B  A$SPI$1771                         SPI
+C:   0000015B  C$util.h$157$1$19                  SPI
+C:   0000015E  A$SPI$1774                         SPI
+C:   0000015E  C$util.h$158$1$19                  SPI
+C:   00000161  A$SPI$1778                         SPI
+C:   00000162  A$SPI$1779                         SPI
+C:   00000163  A$SPI$1780                         SPI
+C:   00000165  A$SPI$1783                         SPI
+C:   00000165  C$util.h$161$2$20                  SPI
+C:   00000167  A$SPI$1786                         SPI
+C:   00000167  C$util.h$162$2$20                  SPI
+C:   00000169  A$SPI$1789                         SPI
+C:   00000169  C$util.h$163$2$20                  SPI
+C:   0000016C  A$SPI$1792                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000016C  C$util.h$164$2$20                  SPI
+C:   0000016F  A$SPI$1795                         SPI
+C:   0000016F  C$util.h$165$2$20                  SPI
+C:   00000171  A$SPI$1799                         SPI
+C:   00000171  C$util.h$166$2$20                  SPI
+C:   00000174  A$SPI$1802                         SPI
+C:   00000174  C$util.h$159$1$19                  SPI
+C:   00000175  A$SPI$1803                         SPI
+C:   00000178  A$SPI$1804                         SPI
+C:   00000179  A$SPI$1806                         SPI
+C:   0000017B  A$SPI$1810                         SPI
+C:   0000017B  C$util.h$168$1$19                  SPI
+C:   0000017B  XG$delay_us$0$0                    SPI
+C:   0000017C  A$SPI$1823                         SPI
+C:   0000017C  C$util.h$172$1$19                  SPI
+C:   0000017C  C$util.h$174$1$21                  SPI
+C:   0000017C  G$clear$0$0                        SPI
+C:   0000017C  _clear                             SPI
+C:   0000017F  A$SPI$1824                         SPI
+C:   00000182  A$SPI$1825                         SPI
+C:   00000185  A$SPI$1826                         SPI
+C:   00000188  A$SPI$1829                         SPI
+C:   00000188  C$util.h$175$1$21                  SPI
+C:   00000188  XG$clear$0$0                       SPI
+C:   00000189  A$SPI$1843                         SPI
+C:   00000189  C$util.h$177$1$21                  SPI
+C:   00000189  G$esc_LCD$0$0                      SPI
+C:   00000189  _esc_LCD                           SPI
+C:   0000018B  A$SPI$1846                         SPI
+C:   0000018B  C$util.h$181$1$23                  SPI
+C:   0000018D  A$SPI$1849                         SPI
+C:   0000018D  C$util.h$182$1$23                  SPI
+C:   0000018E  A$SPI$1852                         SPI
+C:   0000018E  C$util.h$184$1$23                  SPI
+C:   00000190  A$SPI$1855                         SPI
+C:   00000190  C$util.h$185$1$23                  SPI
+C:   00000191  A$SPI$1856                         SPI
+C:   00000192  A$SPI$1857                         SPI
+C:   00000193  A$SPI$1858                         SPI
+C:   00000195  A$SPI$1859                         SPI
+C:   00000196  A$SPI$1860                         SPI
+C:   00000199  A$SPI$1863                         SPI
+C:   00000199  C$util.h$186$1$23                  SPI
+C:   0000019B  A$SPI$1864                         SPI
+C:   0000019C  A$SPI$1865                         SPI
+C:   0000019D  A$SPI$1866                         SPI
+C:   0000019F  A$SPI$1867                         SPI
+C:   000001A0  A$SPI$1868                         SPI
+C:   000001A1  A$SPI$1869                         SPI
+C:   000001A2  A$SPI$1870                         SPI
+C:   000001A3  A$SPI$1871                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001A4  A$SPI$1874                         SPI
+C:   000001A4  C$util.h$187$1$23                  SPI
+C:   000001A6  A$SPI$1877                         SPI
+C:   000001A6  C$util.h$188$1$23                  SPI
+C:   000001A7  A$SPI$1880                         SPI
+C:   000001A7  C$util.h$189$1$23                  SPI
+C:   000001A9  A$SPI$1883                         SPI
+C:   000001A9  C$util.h$190$1$23                  SPI
+C:   000001AC  A$SPI$1886                         SPI
+C:   000001AC  C$util.h$192$2$24                  SPI
+C:   000001AF  A$SPI$1887                         SPI
+C:   000001B1  A$SPI$1888                         SPI
+C:   000001B3  A$SPI$1889                         SPI
+C:   000001B6  A$SPI$1890                         SPI
+C:   000001B8  A$SPI$1891                         SPI
+C:   000001BA  A$SPI$1894                         SPI
+C:   000001BA  C$util.h$193$2$24                  SPI
+C:   000001BC  A$SPI$1897                         SPI
+C:   000001BC  C$util.h$194$2$24                  SPI
+C:   000001BD  A$SPI$1898                         SPI
+C:   000001BE  A$SPI$1899                         SPI
+C:   000001C0  A$SPI$1900                         SPI
+C:   000001C1  A$SPI$1901                         SPI
+C:   000001C3  A$SPI$1902                         SPI
+C:   000001C4  A$SPI$1903                         SPI
+C:   000001C5  A$SPI$1906                         SPI
+C:   000001C5  C$util.h$195$2$24                  SPI
+C:   000001C8  A$SPI$1907                         SPI
+C:   000001C9  A$SPI$1908                         SPI
+C:   000001CA  A$SPI$1909                         SPI
+C:   000001CC  A$SPI$1912                         SPI
+C:   000001CC  C$util.h$197$2$24                  SPI
+C:   000001CD  A$SPI$1915                         SPI
+C:   000001CD  C$util.h$198$2$24                  SPI
+C:   000001CF  A$SPI$1919                         SPI
+C:   000001CF  C$util.h$200$1$23                  SPI
+C:   000001D2  A$SPI$1921                         SPI
+C:   000001D4  A$SPI$1922                         SPI
+C:   000001D7  A$SPI$1925                         SPI
+C:   000001D7  C$util.h$201$1$23                  SPI
+C:   000001DA  A$SPI$1926                         SPI
+C:   000001DD  A$SPI$1927                         SPI
+C:   000001DF  A$SPI$1931                         SPI
+C:   000001DF  C$util.h$203$1$23                  SPI
+C:   000001E2  A$SPI$1932                         SPI
+C:   000001E5  A$SPI$1936                         SPI
+C:   000001E5  C$util.h$204$1$23                  SPI
+C:   000001E5  XG$esc_LCD$0$0                     SPI
+C:   000001E6  A$SPI$1949                         SPI
+C:   000001E6  C$util.h$206$1$23                  SPI
+C:   000001E6  C$util.h$208$1$26                  SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001E6  G$Ini_LCDan$0$0                    SPI
+C:   000001E6  _Ini_LCDan                         SPI
+C:   000001E8  A$SPI$1952                         SPI
+C:   000001E8  C$util.h$209$1$26                  SPI
+C:   000001EB  A$SPI$1953                         SPI
+C:   000001EE  A$SPI$1956                         SPI
+C:   000001EE  C$util.h$210$1$26                  SPI
+C:   000001F0  A$SPI$1957                         SPI
+C:   000001F2  A$SPI$1958                         SPI
+C:   000001F5  A$SPI$1959                         SPI
+C:   000001F8  A$SPI$1962                         SPI
+C:   000001F8  C$util.h$211$1$26                  SPI
+C:   000001FB  A$SPI$1963                         SPI
+C:   000001FE  A$SPI$1966                         SPI
+C:   000001FE  C$util.h$212$1$26                  SPI
+C:   00000200  A$SPI$1967                         SPI
+C:   00000202  A$SPI$1968                         SPI
+C:   00000205  A$SPI$1969                         SPI
+C:   00000208  A$SPI$1972                         SPI
+C:   00000208  C$util.h$213$1$26                  SPI
+C:   0000020B  A$SPI$1973                         SPI
+C:   0000020E  A$SPI$1976                         SPI
+C:   0000020E  C$util.h$214$1$26                  SPI
+C:   00000210  A$SPI$1977                         SPI
+C:   00000212  A$SPI$1978                         SPI
+C:   00000215  A$SPI$1979                         SPI
+C:   00000218  A$SPI$1982                         SPI
+C:   00000218  C$util.h$215$1$26                  SPI
+C:   0000021A  A$SPI$1983                         SPI
+C:   0000021C  A$SPI$1984                         SPI
+C:   0000021F  A$SPI$1985                         SPI
+C:   00000222  A$SPI$1988                         SPI
+C:   00000222  C$util.h$216$1$26                  SPI
+C:   00000224  A$SPI$1989                         SPI
+C:   00000226  A$SPI$1990                         SPI
+C:   00000229  A$SPI$1991                         SPI
+C:   0000022C  A$SPI$1994                         SPI
+C:   0000022C  C$util.h$217$1$26                  SPI
+C:   0000022E  A$SPI$1995                         SPI
+C:   00000230  A$SPI$1996                         SPI
+C:   00000233  A$SPI$1997                         SPI
+C:   00000236  A$SPI$2000                         SPI
+C:   00000236  C$util.h$218$1$26                  SPI
+C:   00000238  A$SPI$2001                         SPI
+C:   0000023A  A$SPI$2002                         SPI
+C:   0000023D  A$SPI$2003                         SPI
+C:   00000240  A$SPI$2006                         SPI
+C:   00000240  C$util.h$219$1$26                  SPI
+C:   00000242  A$SPI$2007                         SPI
+C:   00000244  A$SPI$2008                         SPI
+C:   00000247  A$SPI$2009                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000024A  A$SPI$2012                         SPI
+C:   0000024A  C$util.h$220$1$26                  SPI
+C:   0000024C  A$SPI$2013                         SPI
+C:   0000024E  A$SPI$2014                         SPI
+C:   00000251  A$SPI$2015                         SPI
+C:   00000254  A$SPI$2018                         SPI
+C:   00000254  C$util.h$221$1$26                  SPI
+C:   00000254  XG$Ini_LCDan$0$0                   SPI
+C:   00000255  A$SPI$2031                         SPI
+C:   00000255  C$util.h$223$1$26                  SPI
+C:   00000255  C$util.h$225$1$27                  SPI
+C:   00000255  G$delay_160ns$0$0                  SPI
+C:   00000255  _delay_160ns                       SPI
+C:   00000256  A$SPI$2034                         SPI
+C:   00000256  C$util.h$226$1$27                  SPI
+C:   00000257  A$SPI$2037                         SPI
+C:   00000257  C$util.h$227$1$27                  SPI
+C:   00000258  A$SPI$2040                         SPI
+C:   00000258  C$util.h$228$1$27                  SPI
+C:   00000259  A$SPI$2043                         SPI
+C:   00000259  C$util.h$229$1$27                  SPI
+C:   00000259  XG$delay_160ns$0$0                 SPI
+C:   0000025A  A$SPI$2056                         SPI
+C:   0000025A  C$util.h$231$1$27                  SPI
+C:   0000025A  C$util.h$233$1$28                  SPI
+C:   0000025A  G$delay_320ns$0$0                  SPI
+C:   0000025A  _delay_320ns                       SPI
+C:   0000025D  A$SPI$2059                         SPI
+C:   0000025D  C$util.h$234$1$28                  SPI
+C:   00000260  A$SPI$2062                         SPI
+C:   00000260  C$util.h$235$1$28                  SPI
+C:   00000260  XG$delay_320ns$0$0                 SPI
+C:   00000261  A$SPI$2075                         SPI
+C:   00000261  C$util.h$237$1$28                  SPI
+C:   00000261  C$util.h$239$1$29                  SPI
+C:   00000261  G$delay_480ns$0$0                  SPI
+C:   00000261  _delay_480ns                       SPI
+C:   00000264  A$SPI$2078                         SPI
+C:   00000264  C$util.h$240$1$29                  SPI
+C:   00000267  A$SPI$2081                         SPI
+C:   00000267  C$util.h$241$1$29                  SPI
+C:   00000267  XG$delay_480ns$0$0                 SPI
+C:   00000268  A$SPI$2096                         SPI
+C:   00000268  C$util.h$245$1$29                  SPI
+C:   00000268  C$util.h$248$1$31                  SPI
+C:   00000268  G$le_glcd$0$0                      SPI
+C:   00000268  _le_glcd                           SPI
+C:   0000026A  A$SPI$2099                         SPI
+C:   0000026A  C$util.h$249$1$31                  SPI
+C:   0000026C  A$SPI$2100                         SPI
+C:   0000026E  A$SPI$2103                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000026E  C$util.h$250$1$31                  SPI
+C:   00000270  A$SPI$2104                         SPI
+C:   00000271  A$SPI$2105                         SPI
+C:   00000273  A$SPI$2108                         SPI
+C:   00000273  C$util.h$251$1$31                  SPI
+C:   00000275  A$SPI$2109                         SPI
+C:   00000277  A$SPI$2112                         SPI
+C:   00000277  C$util.h$253$1$31                  SPI
+C:   0000027A  A$SPI$2115                         SPI
+C:   0000027A  C$util.h$255$1$31                  SPI
+C:   0000027C  A$SPI$2118                         SPI
+C:   0000027C  C$util.h$257$1$31                  SPI
+C:   0000027F  A$SPI$2121                         SPI
+C:   0000027F  C$util.h$260$1$31                  SPI
+C:   00000282  A$SPI$2124                         SPI
+C:   00000282  C$util.h$261$1$31                  SPI
+C:   00000284  A$SPI$2127                         SPI
+C:   00000284  C$util.h$262$1$31                  SPI
+C:   00000287  A$SPI$2130                         SPI
+C:   00000287  C$util.h$263$1$31                  SPI
+C:   00000289  A$SPI$2133                         SPI
+C:   00000289  C$util.h$265$1$31                  SPI
+C:   0000028B  A$SPI$2134                         SPI
+C:   0000028E  A$SPI$2137                         SPI
+C:   0000028E  C$util.h$266$1$31                  SPI
+C:   00000290  A$SPI$2140                         SPI
+C:   00000290  C$util.h$267$1$31                  SPI
+C:   00000293  A$SPI$2141                         SPI
+C:   00000295  A$SPI$2144                         SPI
+C:   00000295  C$util.h$269$1$31                  SPI
+C:   00000297  A$SPI$2147                         SPI
+C:   00000297  C$util.h$271$1$31                  SPI
+C:   00000297  XG$le_glcd$0$0                     SPI
+C:   00000298  A$SPI$2160                         SPI
+C:   00000298  C$util.h$273$1$31                  SPI
+C:   00000298  G$esc_glcd$0$0                     SPI
+C:   00000298  _esc_glcd                          SPI
+C:   0000029A  A$SPI$2164                         SPI
+C:   0000029A  C$util.h$277$1$33                  SPI
+C:   0000029C  A$SPI$2165                         SPI
+C:   0000029E  A$SPI$2166                         SPI
+C:   000002A0  A$SPI$2167                         SPI
+C:   000002A2  A$SPI$2168                         SPI
+C:   000002A5  A$SPI$2169                         SPI
+C:   000002A7  A$SPI$2170                         SPI
+C:   000002A9  A$SPI$2171                         SPI
+C:   000002AC  A$SPI$2174                         SPI
+C:   000002AC  C$util.h$280$1$33                  SPI
+C:   000002AE  A$SPI$2177                         SPI
+C:   000002AE  C$util.h$281$1$33                  SPI
+C:   000002B0  A$SPI$2178                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002B2  A$SPI$2181                         SPI
+C:   000002B2  C$util.h$282$1$33                  SPI
+C:   000002B4  A$SPI$2182                         SPI
+C:   000002B5  A$SPI$2183                         SPI
+C:   000002B7  A$SPI$2186                         SPI
+C:   000002B7  C$util.h$283$1$33                  SPI
+C:   000002B9  A$SPI$2187                         SPI
+C:   000002BB  A$SPI$2190                         SPI
+C:   000002BB  C$util.h$285$1$33                  SPI
+C:   000002BE  A$SPI$2193                         SPI
+C:   000002BE  C$util.h$286$1$33                  SPI
+C:   000002C0  A$SPI$2196                         SPI
+C:   000002C0  C$util.h$287$1$33                  SPI
+C:   000002C3  A$SPI$2199                         SPI
+C:   000002C3  C$util.h$289$1$33                  SPI
+C:   000002C6  A$SPI$2202                         SPI
+C:   000002C6  C$util.h$290$1$33                  SPI
+C:   000002C8  A$SPI$2205                         SPI
+C:   000002C8  C$util.h$291$1$33                  SPI
+C:   000002CB  A$SPI$2208                         SPI
+C:   000002CB  C$util.h$292$1$33                  SPI
+C:   000002CD  A$SPI$2211                         SPI
+C:   000002CD  C$util.h$294$1$33                  SPI
+C:   000002D0  A$SPI$2214                         SPI
+C:   000002D0  C$util.h$295$1$33                  SPI
+C:   000002D3  A$SPI$2217                         SPI
+C:   000002D3  C$util.h$296$1$33                  SPI
+C:   000002D6  A$SPI$2220                         SPI
+C:   000002D6  C$util.h$297$1$33                  SPI
+C:   000002D9  A$SPI$2223                         SPI
+C:   000002D9  C$util.h$298$1$33                  SPI
+C:   000002D9  XG$esc_glcd$0$0                    SPI
+C:   000002DA  A$SPI$2236                         SPI
+C:   000002DA  C$util.h$300$1$33                  SPI
+C:   000002DA  G$conf_Y$0$0                       SPI
+C:   000002DA  _conf_Y                            SPI
+C:   000002DC  A$SPI$2239                         SPI
+C:   000002DC  C$util.h$302$1$35                  SPI
+C:   000002DF  A$SPI$2242                         SPI
+C:   000002DF  C$util.h$303$1$35                  SPI
+C:   000002E1  A$SPI$2243                         SPI
+C:   000002E2  A$SPI$2244                         SPI
+C:   000002E4  A$SPI$2245                         SPI
+C:   000002E6  A$SPI$2246                         SPI
+C:   000002E8  A$SPI$2247                         SPI
+C:   000002EA  A$SPI$2248                         SPI
+C:   000002ED  A$SPI$2251                         SPI
+C:   000002ED  C$util.h$304$1$35                  SPI
+C:   000002ED  XG$conf_Y$0$0                      SPI
+C:   000002EE  A$SPI$2264                         SPI
+C:   000002EE  C$util.h$306$1$35                  SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002EE  G$conf_pag$0$0                     SPI
+C:   000002EE  _conf_pag                          SPI
+C:   000002F0  A$SPI$2267                         SPI
+C:   000002F0  C$util.h$308$1$37                  SPI
+C:   000002F3  A$SPI$2270                         SPI
+C:   000002F3  C$util.h$309$1$37                  SPI
+C:   000002F5  A$SPI$2271                         SPI
+C:   000002F6  A$SPI$2272                         SPI
+C:   000002F8  A$SPI$2273                         SPI
+C:   000002FA  A$SPI$2274                         SPI
+C:   000002FC  A$SPI$2275                         SPI
+C:   000002FE  A$SPI$2276                         SPI
+C:   00000301  A$SPI$2279                         SPI
+C:   00000301  C$util.h$310$1$37                  SPI
+C:   00000301  XG$conf_pag$0$0                    SPI
+C:   00000302  A$SPI$2295                         SPI
+C:   00000302  C$util.h$312$1$37                  SPI
+C:   00000302  G$limpa_glcd$0$0                   SPI
+C:   00000302  _limpa_glcd                        SPI
+C:   00000304  A$SPI$2296                         SPI
+C:   00000306  A$SPI$2300                         SPI
+C:   00000306  C$util.h$317$2$40                  SPI
+C:   00000308  A$SPI$2301                         SPI
+C:   0000030A  A$SPI$2302                         SPI
+C:   0000030C  A$SPI$2303                         SPI
+C:   0000030E  A$SPI$2304                         SPI
+C:   00000310  A$SPI$2305                         SPI
+C:   00000313  A$SPI$2308                         SPI
+C:   00000313  C$util.h$318$2$40                  SPI
+C:   00000315  A$SPI$2309                         SPI
+C:   00000317  A$SPI$2310                         SPI
+C:   0000031A  A$SPI$2311                         SPI
+C:   0000031D  A$SPI$2312                         SPI
+C:   0000031F  A$SPI$2313                         SPI
+C:   00000321  A$SPI$2316                         SPI
+C:   00000321  C$util.h$319$1$39                  SPI
+C:   00000323  A$SPI$2317                         SPI
+C:   00000325  A$SPI$2321                         SPI
+C:   00000325  C$util.h$320$2$40                  SPI
+C:   00000327  A$SPI$2322                         SPI
+C:   00000329  A$SPI$2323                         SPI
+C:   0000032B  A$SPI$2324                         SPI
+C:   0000032E  A$SPI$2325                         SPI
+C:   00000330  A$SPI$2326                         SPI
+C:   00000332  A$SPI$2327                         SPI
+C:   00000334  A$SPI$2328                         SPI
+C:   00000336  A$SPI$2329                         SPI
+C:   00000339  A$SPI$2330                         SPI
+C:   0000033B  A$SPI$2331                         SPI
+C:   0000033D  A$SPI$2332                         SPI
+C:   0000033F  A$SPI$2333                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000341  A$SPI$2336                         SPI
+C:   00000341  C$util.h$319$2$40                  SPI
+C:   00000342  A$SPI$2337                         SPI
+C:   00000345  A$SPI$2338                         SPI
+C:   00000346  A$SPI$2340                         SPI
+C:   00000347  A$SPI$2341                         SPI
+C:   00000348  A$SPI$2342                         SPI
+C:   0000034A  A$SPI$2343                         SPI
+C:   0000034B  A$SPI$2344                         SPI
+C:   0000034D  A$SPI$2345                         SPI
+C:   0000034F  A$SPI$2346                         SPI
+C:   00000351  A$SPI$2349                         SPI
+C:   00000351  C$util.h$315$1$39                  SPI
+C:   00000352  A$SPI$2350                         SPI
+C:   00000355  A$SPI$2351                         SPI
+C:   00000356  A$SPI$2353                         SPI
+C:   00000357  A$SPI$2354                         SPI
+C:   00000358  A$SPI$2355                         SPI
+C:   0000035A  A$SPI$2356                         SPI
+C:   0000035B  A$SPI$2357                         SPI
+C:   0000035D  A$SPI$2358                         SPI
+C:   0000035F  A$SPI$2359                         SPI
+C:   00000361  A$SPI$2362                         SPI
+C:   00000361  C$util.h$322$1$39                  SPI
+C:   00000361  XG$limpa_glcd$0$0                  SPI
+C:   00000362  A$SPI$2375                         SPI
+C:   00000362  C$util.h$324$1$39                  SPI
+C:   00000362  C$util.h$326$1$41                  SPI
+C:   00000362  G$glcd_init$0$0                    SPI
+C:   00000362  _glcd_init                         SPI
+C:   00000363  A$SPI$2376                         SPI
+C:   00000365  A$SPI$2377                         SPI
+C:   00000367  A$SPI$2378                         SPI
+C:   00000369  A$SPI$2379                         SPI
+C:   0000036B  A$SPI$2382                         SPI
+C:   0000036B  C$util.h$327$1$41                  SPI
+C:   0000036D  A$SPI$2385                         SPI
+C:   0000036D  C$util.h$328$1$41                  SPI
+C:   0000036F  A$SPI$2388                         SPI
+C:   0000036F  C$util.h$329$1$41                  SPI
+C:   00000371  A$SPI$2391                         SPI
+C:   00000371  C$util.h$330$1$41                  SPI
+C:   00000373  A$SPI$2394                         SPI
+C:   00000373  C$util.h$331$1$41                  SPI
+C:   00000376  A$SPI$2397                         SPI
+C:   00000376  C$util.h$332$1$41                  SPI
+C:   00000379  A$SPI$2400                         SPI
+C:   00000379  C$util.h$333$1$41                  SPI
+C:   0000037C  A$SPI$2404                         SPI
+C:   0000037C  C$util.h$336$1$41                  SPI
+C:   0000037E  A$SPI$2405                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000380  A$SPI$2406                         SPI
+C:   00000383  A$SPI$2407                         SPI
+C:   00000385  A$SPI$2408                         SPI
+C:   00000388  A$SPI$2409                         SPI
+C:   0000038A  A$SPI$2410                         SPI
+C:   0000038C  A$SPI$2411                         SPI
+C:   0000038F  A$SPI$2412                         SPI
+C:   00000391  A$SPI$2413                         SPI
+C:   00000394  A$SPI$2417                         SPI
+C:   00000394  C$util.h$340$1$41                  SPI
+C:   00000396  A$SPI$2418                         SPI
+C:   00000398  A$SPI$2419                         SPI
+C:   0000039B  A$SPI$2420                         SPI
+C:   0000039E  A$SPI$2423                         SPI
+C:   0000039E  C$util.h$341$1$41                  SPI
+C:   000003A0  A$SPI$2424                         SPI
+C:   000003A2  A$SPI$2425                         SPI
+C:   000003A5  A$SPI$2426                         SPI
+C:   000003A8  A$SPI$2429                         SPI
+C:   000003A8  C$util.h$344$1$41                  SPI
+C:   000003AA  A$SPI$2430                         SPI
+C:   000003AC  A$SPI$2431                         SPI
+C:   000003AF  A$SPI$2432                         SPI
+C:   000003B2  A$SPI$2435                         SPI
+C:   000003B2  C$util.h$345$1$41                  SPI
+C:   000003B4  A$SPI$2436                         SPI
+C:   000003B6  A$SPI$2437                         SPI
+C:   000003B9  A$SPI$2438                         SPI
+C:   000003BC  A$SPI$2441                         SPI
+C:   000003BC  C$util.h$347$1$41                  SPI
+C:   000003BE  A$SPI$2442                         SPI
+C:   000003C0  A$SPI$2443                         SPI
+C:   000003C3  A$SPI$2444                         SPI
+C:   000003C6  A$SPI$2447                         SPI
+C:   000003C6  C$util.h$348$1$41                  SPI
+C:   000003C8  A$SPI$2448                         SPI
+C:   000003CA  A$SPI$2449                         SPI
+C:   000003CD  A$SPI$2450                         SPI
+C:   000003D0  A$SPI$2453                         SPI
+C:   000003D0  C$util.h$350$1$41                  SPI
+C:   000003D2  A$SPI$2454                         SPI
+C:   000003D4  A$SPI$2455                         SPI
+C:   000003D7  A$SPI$2456                         SPI
+C:   000003DA  A$SPI$2459                         SPI
+C:   000003DA  C$util.h$351$1$41                  SPI
+C:   000003DC  A$SPI$2460                         SPI
+C:   000003DE  A$SPI$2461                         SPI
+C:   000003E1  A$SPI$2462                         SPI
+C:   000003E4  A$SPI$2465                         SPI
+C:   000003E4  C$util.h$353$1$41                  SPI
+C:   000003E6  A$SPI$2466                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003E9  A$SPI$2469                         SPI
+C:   000003E9  C$util.h$354$1$41                  SPI
+C:   000003EB  A$SPI$2470                         SPI
+C:   000003EE  A$SPI$2473                         SPI
+C:   000003EE  C$util.h$356$1$41                  SPI
+C:   000003F0  A$SPI$2474                         SPI
+C:   000003F3  A$SPI$2475                         SPI
+C:   000003F6  A$SPI$2478                         SPI
+C:   000003F6  C$util.h$357$1$41                  SPI
+C:   000003F8  A$SPI$2479                         SPI
+C:   000003FB  A$SPI$2480                         SPI
+C:   000003FE  A$SPI$2483                         SPI
+C:   000003FE  C$util.h$358$1$41                  SPI
+C:   000003FE  XG$glcd_init$0$0                   SPI
+C:   000003FF  A$SPI$2496                         SPI
+C:   000003FF  C$util.h$360$1$41                  SPI
+C:   000003FF  G$putchar$0$0                      SPI
+C:   000003FF  _putchar                           SPI
+C:   00000401  A$SPI$2499                         SPI
+C:   00000401  C$util.h$364$1$43                  SPI
+C:   00000404  A$SPI$2501                         SPI
+C:   00000406  A$SPI$2504                         SPI
+C:   00000406  C$util.h$366$2$44                  SPI
+C:   00000408  A$SPI$2505                         SPI
+C:   0000040A  A$SPI$2506                         SPI
+C:   0000040B  A$SPI$2507                         SPI
+C:   0000040D  A$SPI$2508                         SPI
+C:   0000040F  A$SPI$2509                         SPI
+C:   00000410  A$SPI$2510                         SPI
+C:   00000412  A$SPI$2511                         SPI
+C:   00000414  A$SPI$2514                         SPI
+C:   00000414  C$util.h$367$2$44                  SPI
+C:   00000417  A$SPI$2515                         SPI
+C:   00000419  A$SPI$2516                         SPI
+C:   0000041C  A$SPI$2519                         SPI
+C:   0000041C  C$util.h$368$2$44                  SPI
+C:   0000041F  A$SPI$2520                         SPI
+C:   00000421  A$SPI$2521                         SPI
+C:   00000424  A$SPI$2524                         SPI
+C:   00000424  C$util.h$369$2$44                  SPI
+C:   00000426  A$SPI$2525                         SPI
+C:   00000429  A$SPI$2526                         SPI
+C:   0000042C  A$SPI$2529                         SPI
+C:   0000042C  C$util.h$370$2$44                  SPI
+C:   0000042E  A$SPI$2530                         SPI
+C:   00000431  A$SPI$2531                         SPI
+C:   00000434  A$SPI$2534                         SPI
+C:   00000434  C$util.h$371$2$44                  SPI
+C:   00000435  A$SPI$2535                         SPI
+C:   00000437  A$SPI$2536                         SPI
+C:   00000439  A$SPI$2537                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000043C  A$SPI$2541                         SPI
+C:   0000043C  C$util.h$375$2$45                  SPI
+C:   0000043D  A$SPI$2542                         SPI
+C:   0000043F  A$SPI$2543                         SPI
+C:   00000441  A$SPI$2544                         SPI
+C:   00000443  A$SPI$2545                         SPI
+C:   00000445  A$SPI$2546                         SPI
+C:   00000447  A$SPI$2547                         SPI
+C:   00000449  A$SPI$2548                         SPI
+C:   0000044B  A$SPI$2549                         SPI
+C:   0000044D  A$SPI$2551                         SPI
+C:   0000044F  A$SPI$2555                         SPI
+C:   0000044F  C$util.h$379$2$45                  SPI
+C:   00000451  A$SPI$2556                         SPI
+C:   00000452  A$SPI$2557                         SPI
+C:   00000454  A$SPI$2558                         SPI
+C:   00000456  A$SPI$2559                         SPI
+C:   00000457  A$SPI$2560                         SPI
+C:   00000459  A$SPI$2561                         SPI
+C:   0000045B  A$SPI$2562                         SPI
+C:   0000045E  A$SPI$2563                         SPI
+C:   00000461  A$SPI$2564                         SPI
+C:   00000463  A$SPI$2565                         SPI
+C:   00000465  A$SPI$2566                         SPI
+C:   00000466  A$SPI$2567                         SPI
+C:   00000468  A$SPI$2568                         SPI
+C:   00000469  A$SPI$2569                         SPI
+C:   0000046A  A$SPI$2570                         SPI
+C:   0000046C  A$SPI$2571                         SPI
+C:   0000046D  A$SPI$2572                         SPI
+C:   0000046F  A$SPI$2573                         SPI
+C:   00000471  A$SPI$2574                         SPI
+C:   00000472  A$SPI$2575                         SPI
+C:   00000473  A$SPI$2576                         SPI
+C:   00000474  A$SPI$2577                         SPI
+C:   00000476  A$SPI$2578                         SPI
+C:   00000478  A$SPI$2579                         SPI
+C:   0000047A  A$SPI$2580                         SPI
+C:   0000047C  A$SPI$2581                         SPI
+C:   0000047E  A$SPI$2582                         SPI
+C:   00000480  A$SPI$2583                         SPI
+C:   00000483  A$SPI$2584                         SPI
+C:   00000485  A$SPI$2585                         SPI
+C:   00000487  A$SPI$2588                         SPI
+C:   00000487  C$util.h$380$2$45                  SPI
+C:   00000489  A$SPI$2589                         SPI
+C:   0000048B  A$SPI$2590                         SPI
+C:   0000048C  A$SPI$2591                         SPI
+C:   0000048D  A$SPI$2592                         SPI
+C:   0000048E  A$SPI$2593                         SPI
+C:   0000048F  A$SPI$2594                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000491  A$SPI$2595                         SPI
+C:   00000493  A$SPI$2596                         SPI
+C:   00000495  A$SPI$2597                         SPI
+C:   00000497  A$SPI$2598                         SPI
+C:   00000499  A$SPI$2599                         SPI
+C:   0000049B  A$SPI$2600                         SPI
+C:   0000049E  A$SPI$2601                         SPI
+C:   000004A0  A$SPI$2602                         SPI
+C:   000004A2  A$SPI$2605                         SPI
+C:   000004A2  C$util.h$381$2$45                  SPI
+C:   000004A4  A$SPI$2606                         SPI
+C:   000004A6  A$SPI$2607                         SPI
+C:   000004A7  A$SPI$2608                         SPI
+C:   000004A8  A$SPI$2609                         SPI
+C:   000004A9  A$SPI$2610                         SPI
+C:   000004AA  A$SPI$2611                         SPI
+C:   000004AB  A$SPI$2612                         SPI
+C:   000004AD  A$SPI$2613                         SPI
+C:   000004AF  A$SPI$2614                         SPI
+C:   000004B1  A$SPI$2615                         SPI
+C:   000004B3  A$SPI$2616                         SPI
+C:   000004B5  A$SPI$2617                         SPI
+C:   000004B7  A$SPI$2618                         SPI
+C:   000004BA  A$SPI$2619                         SPI
+C:   000004BC  A$SPI$2620                         SPI
+C:   000004BE  A$SPI$2623                         SPI
+C:   000004BE  C$util.h$382$2$45                  SPI
+C:   000004C0  A$SPI$2624                         SPI
+C:   000004C2  A$SPI$2625                         SPI
+C:   000004C3  A$SPI$2626                         SPI
+C:   000004C4  A$SPI$2627                         SPI
+C:   000004C5  A$SPI$2628                         SPI
+C:   000004C6  A$SPI$2629                         SPI
+C:   000004C7  A$SPI$2630                         SPI
+C:   000004C8  A$SPI$2631                         SPI
+C:   000004CA  A$SPI$2632                         SPI
+C:   000004CC  A$SPI$2633                         SPI
+C:   000004CE  A$SPI$2634                         SPI
+C:   000004D0  A$SPI$2635                         SPI
+C:   000004D2  A$SPI$2636                         SPI
+C:   000004D4  A$SPI$2637                         SPI
+C:   000004D7  A$SPI$2638                         SPI
+C:   000004D9  A$SPI$2639                         SPI
+C:   000004DB  A$SPI$2642                         SPI
+C:   000004DB  C$util.h$383$2$45                  SPI
+C:   000004DD  A$SPI$2643                         SPI
+C:   000004DF  A$SPI$2644                         SPI
+C:   000004E0  A$SPI$2645                         SPI
+C:   000004E1  A$SPI$2646                         SPI
+C:   000004E2  A$SPI$2647                         SPI
+C:   000004E3  A$SPI$2648                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004E4  A$SPI$2649                         SPI
+C:   000004E5  A$SPI$2650                         SPI
+C:   000004E6  A$SPI$2651                         SPI
+C:   000004E8  A$SPI$2652                         SPI
+C:   000004EA  A$SPI$2653                         SPI
+C:   000004EC  A$SPI$2654                         SPI
+C:   000004EE  A$SPI$2655                         SPI
+C:   000004F1  A$SPI$2658                         SPI
+C:   000004F1  C$util.h$384$2$45                  SPI
+C:   000004F3  A$SPI$2659                         SPI
+C:   000004F5  A$SPI$2660                         SPI
+C:   000004F7  A$SPI$2661                         SPI
+C:   000004FA  A$SPI$2662                         SPI
+C:   000004FD  A$SPI$2665                         SPI
+C:   000004FD  C$util.h$385$2$45                  SPI
+C:   000004FF  A$SPI$2666                         SPI
+C:   00000501  A$SPI$2667                         SPI
+C:   00000503  A$SPI$2668                         SPI
+C:   00000506  A$SPI$2669                         SPI
+C:   00000509  A$SPI$2672                         SPI
+C:   00000509  C$util.h$386$2$45                  SPI
+C:   0000050B  A$SPI$2673                         SPI
+C:   0000050D  A$SPI$2674                         SPI
+C:   0000050F  A$SPI$2675                         SPI
+C:   00000512  A$SPI$2676                         SPI
+C:   00000515  A$SPI$2679                         SPI
+C:   00000515  C$util.h$387$2$45                  SPI
+C:   00000517  A$SPI$2680                         SPI
+C:   00000518  A$SPI$2681                         SPI
+C:   0000051B  A$SPI$2682                         SPI
+C:   0000051D  A$SPI$2686                         SPI
+C:   0000051D  C$util.h$389$2$45                  SPI
+C:   0000051E  A$SPI$2687                         SPI
+C:   00000520  A$SPI$2688                         SPI
+C:   00000522  A$SPI$2689                         SPI
+C:   00000524  A$SPI$2690                         SPI
+C:   00000526  A$SPI$2691                         SPI
+C:   00000528  A$SPI$2692                         SPI
+C:   0000052A  A$SPI$2695                         SPI
+C:   0000052A  C$util.h$391$3$46                  SPI
+C:   0000052B  A$SPI$2696                         SPI
+C:   0000052D  A$SPI$2697                         SPI
+C:   0000052F  A$SPI$2700                         SPI
+C:   0000052F  C$util.h$392$3$46                  SPI
+C:   00000531  A$SPI$2702                         SPI
+C:   00000534  A$SPI$2703                         SPI
+C:   00000536  A$SPI$2705                         SPI
+C:   00000539  A$SPI$2706                         SPI
+C:   0000053B  A$SPI$2707                         SPI
+C:   0000053E  A$SPI$2710                         SPI
+C:   0000053E  C$util.h$393$3$46                  SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000541  A$SPI$2711                         SPI
+C:   00000543  A$SPI$2712                         SPI
+C:   00000546  A$SPI$2715                         SPI
+C:   00000546  C$util.h$394$3$46                  SPI
+C:   00000548  A$SPI$2716                         SPI
+C:   0000054B  A$SPI$2717                         SPI
+C:   0000054E  A$SPI$2720                         SPI
+C:   0000054E  C$util.h$395$3$46                  SPI
+C:   00000550  A$SPI$2721                         SPI
+C:   00000553  A$SPI$2722                         SPI
+C:   00000556  A$SPI$2726                         SPI
+C:   00000556  C$util.h$398$1$43                  SPI
+C:   00000556  XG$putchar$0$0                     SPI
+C:   00000557  A$SPI$2742                         SPI
+C:   00000557  C$SPI.c$10$1$43                    SPI
+C:   00000557  G$esc_RAM_SPI$0$0                  SPI
+C:   00000557  _esc_RAM_SPI                       SPI
+C:   00000559  A$SPI$2743                         SPI
+C:   0000055B  A$SPI$2746                         SPI
+C:   0000055B  C$SPI.c$13$1$61                    SPI
+C:   0000055D  A$SPI$2751                         SPI
+C:   0000055D  C$SPI.c$14$1$61                    SPI
+C:   0000055D  C$SPI.c$16$1$61                    SPI
+C:   0000055F  A$SPI$2754                         SPI
+C:   0000055F  C$SPI.c$19$1$61                    SPI
+C:   00000562  A$SPI$2758                         SPI
+C:   00000562  C$SPI.c$22$1$61                    SPI
+C:   00000565  A$SPI$2761                         SPI
+C:   00000565  C$SPI.c$24$1$61                    SPI
+C:   00000567  A$SPI$2765                         SPI
+C:   00000567  C$SPI.c$25$1$61                    SPI
+C:   0000056A  A$SPI$2768                         SPI
+C:   0000056A  C$SPI.c$26$1$61                    SPI
+C:   0000056C  A$SPI$2772                         SPI
+C:   0000056C  C$SPI.c$27$1$61                    SPI
+C:   0000056F  A$SPI$2775                         SPI
+C:   0000056F  C$SPI.c$28$1$61                    SPI
+C:   00000572  A$SPI$2779                         SPI
+C:   00000572  C$SPI.c$29$1$61                    SPI
+C:   00000575  A$SPI$2782                         SPI
+C:   00000575  C$SPI.c$30$1$61                    SPI
+C:   00000577  A$SPI$2788                         SPI
+C:   00000577  C$SPI.c$32$1$61                    SPI
+C:   00000577  C$SPI.c$33$1$61                    SPI
+C:   0000057A  A$SPI$2789                         SPI
+C:   0000057C  A$SPI$2793                         SPI
+C:   0000057C  C$SPI.c$34$1$61                    SPI
+C:   0000057E  A$SPI$2796                         SPI
+C:   0000057E  C$SPI.c$35$1$61                    SPI
+C:   0000057E  XG$esc_RAM_SPI$0$0                 SPI
+C:   0000057F  A$SPI$2811                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000057F  C$SPI.c$37$1$61                    SPI
+C:   0000057F  G$le_RAM_SPI$0$0                   SPI
+C:   0000057F  _le_RAM_SPI                        SPI
+C:   00000581  A$SPI$2812                         SPI
+C:   00000583  A$SPI$2815                         SPI
+C:   00000583  C$SPI.c$40$1$63                    SPI
+C:   00000585  A$SPI$2820                         SPI
+C:   00000585  C$SPI.c$41$1$63                    SPI
+C:   00000585  C$SPI.c$43$1$63                    SPI
+C:   00000587  A$SPI$2823                         SPI
+C:   00000587  C$SPI.c$46$1$63                    SPI
+C:   0000058A  A$SPI$2827                         SPI
+C:   0000058A  C$SPI.c$49$1$63                    SPI
+C:   0000058D  A$SPI$2830                         SPI
+C:   0000058D  C$SPI.c$51$1$63                    SPI
+C:   0000058F  A$SPI$2834                         SPI
+C:   0000058F  C$SPI.c$52$1$63                    SPI
+C:   00000592  A$SPI$2837                         SPI
+C:   00000592  C$SPI.c$53$1$63                    SPI
+C:   00000594  A$SPI$2841                         SPI
+C:   00000594  C$SPI.c$54$1$63                    SPI
+C:   00000597  A$SPI$2844                         SPI
+C:   00000597  C$SPI.c$55$1$63                    SPI
+C:   0000059A  A$SPI$2848                         SPI
+C:   0000059A  C$SPI.c$56$1$63                    SPI
+C:   0000059D  A$SPI$2851                         SPI
+C:   0000059D  C$SPI.c$57$1$63                    SPI
+C:   0000059F  A$SPI$2857                         SPI
+C:   0000059F  C$SPI.c$59$1$63                    SPI
+C:   0000059F  C$SPI.c$60$1$63                    SPI
+C:   000005A2  A$SPI$2858                         SPI
+C:   000005A4  A$SPI$2862                         SPI
+C:   000005A4  C$SPI.c$61$1$63                    SPI
+C:   000005A6  A$SPI$2865                         SPI
+C:   000005A6  C$SPI.c$62$1$63                    SPI
+C:   000005A9  A$SPI$2868                         SPI
+C:   000005A9  C$SPI.c$63$1$63                    SPI
+C:   000005A9  XG$le_RAM_SPI$0$0                  SPI
+C:   000005AA  A$SPI$2884                         SPI
+C:   000005AA  C$SPI.c$65$1$63                    SPI
+C:   000005AA  C$SPI.c$69$1$65                    SPI
+C:   000005AA  G$main$0$0                         SPI
+C:   000005AA  _main                              SPI
+C:   000005AD  A$SPI$2887                         SPI
+C:   000005AD  C$SPI.c$70$1$65                    SPI
+C:   000005B0  A$SPI$2890                         SPI
+C:   000005B0  C$SPI.c$72$1$65                    SPI
+C:   000005B3  A$SPI$2893                         SPI
+C:   000005B3  C$SPI.c$74$1$65                    SPI
+C:   000005B5  A$SPI$2894                         SPI
+C:   000005B7  A$SPI$2895                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005B9  A$SPI$2896                         SPI
+C:   000005BB  A$SPI$2897                         SPI
+C:   000005BE  A$SPI$2898                         SPI
+C:   000005C0  A$SPI$2899                         SPI
+C:   000005C2  A$SPI$2902                         SPI
+C:   000005C4  A$SPI$2903                         SPI
+C:   000005C6  A$SPI$2904                         SPI
+C:   000005C8  A$SPI$2905                         SPI
+C:   000005CA  A$SPI$2909                         SPI
+C:   000005CA  C$SPI.c$78$2$66                    SPI
+C:   000005CC  A$SPI$2910                         SPI
+C:   000005CE  A$SPI$2911                         SPI
+C:   000005D0  A$SPI$2912                         SPI
+C:   000005D2  A$SPI$2913                         SPI
+C:   000005D4  A$SPI$2914                         SPI
+C:   000005D6  A$SPI$2915                         SPI
+C:   000005D8  A$SPI$2916                         SPI
+C:   000005DA  A$SPI$2917                         SPI
+C:   000005DC  A$SPI$2918                         SPI
+C:   000005DE  A$SPI$2919                         SPI
+C:   000005E1  A$SPI$2920                         SPI
+C:   000005E3  A$SPI$2921                         SPI
+C:   000005E5  A$SPI$2922                         SPI
+C:   000005E7  A$SPI$2923                         SPI
+C:   000005E9  A$SPI$2924                         SPI
+C:   000005EB  A$SPI$2927                         SPI
+C:   000005EB  C$SPI.c$81$2$66                    SPI
+C:   000005EE  A$SPI$2928                         SPI
+C:   000005F0  A$SPI$2929                         SPI
+C:   000005F2  A$SPI$2930                         SPI
+C:   000005F4  A$SPI$2931                         SPI
+C:   000005F6  A$SPI$2932                         SPI
+C:   000005F9  A$SPI$2933                         SPI
+C:   000005FB  A$SPI$2934                         SPI
+C:   000005FD  A$SPI$2937                         SPI
+C:   000005FD  C$SPI.c$82$2$66                    SPI
+C:   000005FF  A$SPI$2938                         SPI
+C:   00000601  A$SPI$2939                         SPI
+C:   00000603  A$SPI$2940                         SPI
+C:   00000605  A$SPI$2941                         SPI
+C:   00000608  A$SPI$2942                         SPI
+C:   0000060A  A$SPI$2943                         SPI
+C:   0000060C  A$SPI$2944                         SPI
+C:   0000060E  A$SPI$2945                         SPI
+C:   00000610  A$SPI$2946                         SPI
+C:   00000612  A$SPI$2947                         SPI
+C:   00000615  A$SPI$2948                         SPI
+C:   00000617  A$SPI$2952                         SPI
+C:   00000617  C$SPI.c$84$3$67                    SPI
+C:   00000619  A$SPI$2953                         SPI
+C:   0000061B  A$SPI$2954                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000061D  A$SPI$2955                         SPI
+C:   0000061F  A$SPI$2956                         SPI
+C:   00000621  A$SPI$2957                         SPI
+C:   00000623  A$SPI$2958                         SPI
+C:   00000625  A$SPI$2959                         SPI
+C:   00000627  A$SPI$2960                         SPI
+C:   0000062A  A$SPI$2961                         SPI
+C:   0000062C  A$SPI$2962                         SPI
+C:   0000062E  A$SPI$2963                         SPI
+C:   00000630  A$SPI$2964                         SPI
+C:   00000632  A$SPI$2965                         SPI
+C:   00000634  A$SPI$2968                         SPI
+C:   00000634  C$SPI.c$85$3$67                    SPI
+C:   00000636  A$SPI$2972                         SPI
+C:   00000636  C$SPI.c$89$2$66                    SPI
+C:   00000639  A$SPI$2973                         SPI
+C:   0000063B  A$SPI$2974                         SPI
+C:   0000063D  A$SPI$2975                         SPI
+C:   0000063F  A$SPI$2976                         SPI
+C:   00000641  A$SPI$2977                         SPI
+C:   00000643  A$SPI$2978                         SPI
+C:   00000645  A$SPI$2979                         SPI
+C:   00000648  A$SPI$2980                         SPI
+C:   0000064A  A$SPI$2981                         SPI
+C:   0000064C  A$SPI$2984                         SPI
+C:   0000064C  C$SPI.c$90$2$66                    SPI
+C:   0000064E  A$SPI$2985                         SPI
+C:   00000650  A$SPI$2986                         SPI
+C:   00000652  A$SPI$2987                         SPI
+C:   00000654  A$SPI$2988                         SPI
+C:   00000657  A$SPI$2989                         SPI
+C:   00000659  A$SPI$2990                         SPI
+C:   0000065B  A$SPI$2991                         SPI
+C:   0000065D  A$SPI$2992                         SPI
+C:   0000065F  A$SPI$2993                         SPI
+C:   00000661  A$SPI$2994                         SPI
+C:   00000664  A$SPI$2995                         SPI
+C:   00000666  A$SPI$2999                         SPI
+C:   00000666  C$SPI.c$92$3$68                    SPI
+C:   00000668  A$SPI$3000                         SPI
+C:   0000066A  A$SPI$3001                         SPI
+C:   0000066C  A$SPI$3002                         SPI
+C:   0000066E  A$SPI$3003                         SPI
+C:   00000670  A$SPI$3004                         SPI
+C:   00000672  A$SPI$3005                         SPI
+C:   00000674  A$SPI$3006                         SPI
+C:   00000676  A$SPI$3007                         SPI
+C:   00000679  A$SPI$3008                         SPI
+C:   0000067B  A$SPI$3009                         SPI
+C:   0000067D  A$SPI$3010                         SPI
+C:   0000067F  A$SPI$3011                         SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000B50 =        2896. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000681  A$SPI$3012                         SPI
+C:   00000683  A$SPI$3015                         SPI
+C:   00000683  C$SPI.c$93$3$68                    SPI
+C:   00000685  A$SPI$3019                         SPI
+C:   00000685  C$SPI.c$97$2$66                    SPI
+C:   00000688  A$SPI$3020                         SPI
+C:   0000068B  A$SPI$3021                         SPI
+C:   0000068D  A$SPI$3025                         SPI
+C:   0000068D  C$SPI.c$76$1$65                    SPI
+C:   0000068E  A$SPI$3026                         SPI
+C:   00000691  A$SPI$3027                         SPI
+C:   00000692  A$SPI$3029                         SPI
+C:   00000694  A$SPI$3030                         SPI
+C:   00000696  A$SPI$3031                         SPI
+C:   00000699  A$SPI$3035                         SPI
+C:   00000699  C$SPI.c$101$1$65                   SPI
+C:   0000069C  A$SPI$3036                         SPI
+C:   0000069F  A$SPI$3039                         SPI
+C:   0000069F  C$SPI.c$102$1$65                   SPI
+C:   000006A1  A$SPI$3040                         SPI
+C:   000006A3  A$SPI$3041                         SPI
+C:   000006A5  A$SPI$3042                         SPI
+C:   000006A7  A$SPI$3043                         SPI
+C:   000006AA  A$SPI$3044                         SPI
+C:   000006AC  A$SPI$3045                         SPI
+C:   000006AE  A$SPI$3049                         SPI
+C:   000006AE  C$SPI.c$103$1$65                   SPI
+C:   000006B0  A$SPI$3052                         SPI
+C:   000006B0  C$SPI.c$104$1$65                   SPI
+C:   000006B0  XG$main$0$0                        SPI
+C:   000006B1  _printf_fast_f                     printf_fast_f
+C:   00000B32  fs_rshift_a                        _fsrshift
+C:   00000B75  __mulint                           _mulint
+C:   00000B75  __mulint_dummy                     _mulint
+C:   00000B92  __gptrget                          _gptrget
+C:   00000BAE  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000BB2    000003F8 =        1016. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000BB2  G$fonte$0$0                        SPI
+C:   00000BB2  _fonte                             SPI
+C:   00000D92  FSPI$__str_0$0$0                   SPI
+C:   00000DAB  FSPI$__str_1$0$0                   SPI
+C:   00000DB9  FSPI$__str_2$0$0                   SPI
+C:   00000DC6  FSPI$__str_3$0$0                   SPI
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+
+Files Linked                              [ module(s) ]
+
+Z:\micap\SPI\SPI.rel                      [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_fast_f.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsrshift.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
